@@ -8,15 +8,15 @@
     "eyebrow": "Categoría · Trail Adventure",
     "lead": "Neumáticos de alto rendimiento para motos adventure que dominan tanto la carretera como el camino de ripio. Diseñados para la BMW GS, Africa Twin, Ténéré 700 y todas las grandes adventure que recorren Chile.",
     "stats": [
-      { "value": "4", "label": "Modelos" },
-      { "value": "12+", "label": "Medidas" },
+      { "value": "3", "label": "Modelos" },
+      { "value": "17", "label": "Medidas" },
       { "value": "650-1300", "label": "cc" },
       { "value": "24h", "label": "ZOFRI" }
     ],
     "featuredModel": "K784 Big Block",
     "usageTag": "Adventure 60/40",
     "products": ["kenda-k784-big-block", "kenda-k761-dual-sport", "kenda-k787-equilibrium"],
-    "popularSizes": ["120/70 R17", "110/80 R19", "90/90-21", "150/70 R17", "170/60 R17", "150/70 R18", "130/80 R17", "90/90-21"],
+    "popularSizes": ["90/90B21", "100/90B19", "110/80B19", "120/70B19", "130/80B17", "140/80B17", "150/70B17", "150/70B18", "170/60B17"],
     "keywords": ["neumatico trail moto chile", "neumaticos big trail chile", "kenda adventure moto", "kenda k784 big block", "neumaticos bmw gs chile", "africa twin neumaticos", "tenere 700 neumaticos"],
     "schemas": ["CollectionPage", "ItemList", "FAQPage", "BreadcrumbList"],
     "relatedCategories": ["dual-sport", "enduro", "calle-carretera"],
@@ -51,12 +51,12 @@
       }
     ],
     "compatibleMotos": [
-      { "make": "BMW", "model": "R 1250 GS", "front": "120/70 R19", "rear": "170/60 R17", "cc": "900-1300" },
-      { "make": "BMW", "model": "F 850 GS", "front": "90/90-21", "rear": "150/70 R17", "cc": "650-800" },
-      { "make": "Honda", "model": "Africa Twin CRF1100", "front": "90/90-21", "rear": "150/70 R18", "cc": "900-1300" },
-      { "make": "Yamaha", "model": "Ténéré 700", "front": "90/90-21", "rear": "150/70 R17", "cc": "650-800" },
-      { "make": "KTM", "model": "890 Adventure", "front": "90/90-21", "rear": "150/70 R17", "cc": "650-800" },
-      { "make": "Triumph", "model": "Tiger 900", "front": "110/80 R19", "rear": "150/70 R17", "cc": "900-1300" }
+      { "make": "BMW", "model": "R 1250 GS", "front": "90/90B21", "rear": "170/60B17", "cc": "900-1300" },
+      { "make": "BMW", "model": "F 850 GS", "front": "90/90B21", "rear": "150/70B17", "cc": "650-800" },
+      { "make": "Honda", "model": "Africa Twin CRF1100", "front": "90/90B21", "rear": "150/70B18", "cc": "900-1300" },
+      { "make": "Yamaha", "model": "Ténéré 700", "front": "90/90B21", "rear": "150/70B17", "cc": "650-800" },
+      { "make": "KTM", "model": "890 Adventure", "front": "90/90B21", "rear": "150/70B17", "cc": "650-800" },
+      { "make": "Triumph", "model": "Tiger 900", "front": "110/80B19", "rear": "150/70B17", "cc": "900-1300" }
     ],
     "faq": [
       {
@@ -87,14 +87,14 @@
     "lead": "Neumáticos de competición para enduro en Chile. K778 para terrenos duros y pedregosos, K779 para terrenos blandos e intermedios. Compatibles con KTM EXC, Husqvarna FE, Beta RR y GasGas EC.",
     "stats": [
       { "value": "2", "label": "Modelos" },
-      { "value": "8+", "label": "Medidas" },
+      { "value": "4", "label": "Medidas" },
       { "value": "250-500", "label": "cc" },
       { "value": "24h", "label": "ZOFRI" }
     ],
     "featuredModel": "K778",
     "usageTag": "Enduro Hard 20/80",
     "products": ["kenda-k778", "kenda-k779"],
-    "popularSizes": ["90/100-21", "80/100-21", "110/100-18", "100/90-19", "120/100-18", "140/80-18", "120/90-18", "90/90-21"],
+    "popularSizes": ["80/100-21", "90/90-21", "120/90-18", "140/80-18"],
     "keywords": ["neumaticos enduro moto chile", "kenda enduro", "neumatico enduro hard chile", "kenda k778 chile", "enduro moto neumatico"],
     "relatedCategories": ["cross-motocross", "trail-adventure"],
     "faq": [
@@ -118,13 +118,14 @@
     "lead": "Neumáticos de motocross de alto rendimiento. K785 Millville para pistas de tierra y terreno blando, K782 Sand Mad para arena y barro extremo. Para Honda CRF, Kawasaki KX, Yamaha YZ y KTM SX.",
     "stats": [
       { "value": "2", "label": "Modelos" },
-      { "value": "6+", "label": "Medidas" },
+      { "value": "12", "label": "Medidas" },
       { "value": "125-450", "label": "cc" },
       { "value": "24h", "label": "ZOFRI" }
     ],
     "featuredModel": "K785 Millville",
     "usageTag": "MX Competición",
     "products": ["kenda-k785-millville", "kenda-k782-sand-mad"],
+    "popularSizes": ["70/100-17", "70/100-19", "80/100-21", "90/100-21", "90/100-14", "100/90-19", "110/90-19", "110/100-18", "120/100-18"],
     "keywords": ["neumatico motocross chile", "kenda motocross", "neumaticos mx chile", "kenda k785 millville", "moto cross neumatico"],
     "relatedCategories": ["enduro", "trail-adventure"],
     "faq": [
@@ -145,6 +146,7 @@
     "featuredModel": "K761 Dual Sport",
     "usageTag": "Dual 50/50",
     "products": ["kenda-k761-dual-sport", "kenda-k784-big-block"],
+    "popularSizes": ["90/90-21", "100/90-19", "110/80-18", "120/80-18", "130/90-16"],
     "keywords": ["neumatico dual sport chile", "kenda k761", "neumaticos moto dual sport chile"],
     "relatedCategories": ["trail-adventure", "calle-carretera"],
     "faq": [
@@ -158,19 +160,24 @@
     "slug": "calle-carretera",
     "name": "Calle / Carretera",
     "h1": "Neumáticos Moto Calle Carretera Kenda Chile",
-    "metaTitle": "Neumáticos Moto Calle Kenda Chile | K761 K787 | Sport Touring",
-    "metaDescription": "Neumáticos Kenda para moto calle y carretera en Chile. K787 Equilibrium sport touring. Distribuidor oficial ZOFRI Iquique.",
+    "metaTitle": "Neumáticos Moto Calle Kenda Chile | K761 K787 Clásico | Distribuidor ZOFRI",
+    "metaDescription": "Neumáticos Kenda para moto calle, carretera y clásicas en Chile. K787 Equilibrium para motos clásicas y vintage. K761 dual sport. Distribuidor oficial ZOFRI Iquique.",
     "eyebrow": "Categoría · Calle / Carretera",
-    "lead": "Neumáticos sport y touring para motos de calle. El K787 Equilibrium ofrece máximo grip y durabilidad en asfalto para naked, sport y touring que recorren Chile de norte a sur.",
-    "featuredModel": "K787 Equilibrium",
-    "usageTag": "Carretera 90/10",
+    "lead": "Neumáticos Kenda para motos de calle, carretera y modelos clásicos. El K787 Equilibrium es un neumático de perfil clásico (con cámara) ideal para trail clásico, motos vintage y enduro clásico. El K761 cubre el segmento dual sport con homologación para vía pública.",
+    "featuredModel": "K761 Dual Sport",
+    "usageTag": "Calle · Clásico",
     "products": ["kenda-k787-equilibrium", "kenda-k761-dual-sport"],
-    "keywords": ["neumatico moto calle chile", "neumaticos carretera moto chile", "kenda k787"],
+    "popularSizes": ["90/90-21", "100/90-19", "110/80-18", "2.75-21", "4.00-18", "4.50-18"],
+    "keywords": ["neumatico moto calle chile", "neumaticos carretera moto chile", "kenda k787", "neumaticos moto clasica chile", "kenda k761 calle"],
     "relatedCategories": ["dual-sport", "scooter"],
     "faq": [
       {
-        "question": "¿El Kenda K787 es apto para autopistas y altas velocidades?",
-        "answer": "Sí, el K787 Equilibrium tiene índice de velocidad W (270 km/h), lo que lo hace apto para cualquier velocidad legal en Chile. Su compuesto sport touring está optimizado para durabilidad en autovía."
+        "question": "¿El Kenda K787 Equilibrium es apto para motos clásicas y vintage?",
+        "answer": "Sí, el K787 Equilibrium es un neumático de perfil clásico con cámara (TT), disponible en medidas imperiales como 2.75-21 y 4.00-18. Es ideal para motos clásicas, enduro clásico y trail vintage como Yamaha XT 600, Suzuki DR 650, Honda XR 600 y BMW R 80GS."
+      },
+      {
+        "question": "¿El Kenda K761 sirve para uso diario en calle?",
+        "answer": "Sí, el K761 está homologado para uso en vía pública. Su banda central proporciona bajo ruido y estabilidad en asfalto, mientras conserva agarre off-road para uso mixto. Ideal para Honda CRF 300L, Kawasaki KLX y Suzuki DR."
       }
     ]
   },

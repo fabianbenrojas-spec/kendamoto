@@ -24,12 +24,12 @@ const neumaticosMenu = {
     { label: 'K787 Equilibrium', href: '/neumaticos-kenda-moto/calle-carretera/kenda-k787-equilibrium/' },
   ],
   medidas: [
-    { label: 'Aro 17', href: '/neumaticos-kenda-moto/medida/aro-17/' },
-    { label: 'Aro 18', href: '/neumaticos-kenda-moto/medida/aro-18/' },
-    { label: 'Aro 19', href: '/neumaticos-kenda-moto/medida/aro-19/' },
-    { label: 'Aro 21', href: '/neumaticos-kenda-moto/medida/aro-21/' },
-    { label: '120/70 R17', href: '/neumaticos-kenda-moto/medida/120-70-r17/' },
+    { label: '90/90B21', href: '/neumaticos-kenda-moto/medida/90-90b21/' },
+    { label: '150/70B17', href: '/neumaticos-kenda-moto/medida/150-70b17/' },
+    { label: '170/60B17', href: '/neumaticos-kenda-moto/medida/170-60b17/' },
     { label: '90/90-21', href: '/neumaticos-kenda-moto/medida/90-90-21/' },
+    { label: '110/100-18', href: '/neumaticos-kenda-moto/medida/110-100-18/' },
+    { label: '80/100-21', href: '/neumaticos-kenda-moto/medida/80-100-21/' },
     { label: 'Ver todas las medidas →', href: '/neumaticos-kenda-moto/medida/' },
   ],
 }
