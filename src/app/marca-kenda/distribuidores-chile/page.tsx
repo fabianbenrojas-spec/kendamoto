@@ -6,7 +6,7 @@ import { buildBreadcrumb, buildLocalBusinessSchema } from '@/lib/schema'
 export const metadata: Metadata = {
   title: 'Distribuidor Oficial Kenda en Chile — Carioca Chile Ltda. ZOFRI | Kenda Moto',
   description:
-    'Carioca Chile Ltda. es el distribuidor oficial exclusivo de Kenda Tires en Chile desde el año 2000. Bodega en Zona Franca de Iquique (ZOFRI). Envío a todo Chile.',
+    'Carioca Chile Ltda. (RUT 78.846.500-9) es el distribuidor oficial exclusivo de Kenda Tires en Chile. Fundada en 1996. Bodega en Zona Franca de Iquique (ZOFRI). Envío a todo Chile.',
   alternates: { canonical: absoluteUrl('/marca-kenda/distribuidores-chile/') },
 }
 
@@ -51,10 +51,14 @@ export default function DistribuidoresChilePage() {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '16px', fontFamily: 'var(--font-body)', fontSize: '14px', color: 'var(--text)', lineHeight: 1.8 }}>
               <div>
                 <strong>Razón social:</strong><br />Carioca Chile Ltda.<br /><br />
-                <strong>Fundada:</strong><br />Año 2000<br /><br />
-                <strong>Actividad:</strong><br />Distribución mayorista y minorista de neumáticos y cámaras Kenda
+                <strong>RUT:</strong><br />78.846.500-9<br /><br />
+                <strong>Tipo de empresa:</strong><br />Soc. de Responsabilidad Limitada<br /><br />
+                <strong>Giro SII:</strong><br />Importadora y Exportadora de Bicicletas<br /><br />
+                <strong>Año de fundación:</strong><br />1996<br /><br />
+                <strong>Trabajadores:</strong><br />1–10
               </div>
               <div>
+                <strong>Actividad:</strong><br />Importación y distribución de neumáticos y cámaras Kenda<br /><br />
                 <strong>Sede:</strong><br />Zona Franca de Iquique (ZOFRI)<br />Iquique, Región de Tarapacá<br />Chile<br /><br />
                 <strong>Cobertura:</strong><br />Las 16 regiones de Chile<br /><br />
                 <strong>Email:</strong><br />ventas@kendamoto.cl<br />mayoristas@kendamoto.cl
@@ -63,7 +67,7 @@ export default function DistribuidoresChilePage() {
           </div>
 
           <p style={{ fontFamily: 'var(--font-body)', fontSize: '16px', color: 'var(--text)', lineHeight: 1.8, marginBottom: '24px' }}>
-            Carioca Chile Ltda. es el único importador y distribuidor oficial autorizado por Kenda Rubber Industrial Co., Ltd. (Taiwan) para el mercado chileno. Operamos desde la Zona Franca de Iquique desde el año 2000, lo que nos permite importar directamente desde Taiwan con los beneficios arancelarios de la ZOFRI.
+            Carioca Chile Ltda. (RUT 78.846.500-9) es el único importador y distribuidor oficial autorizado por Kenda Rubber Industrial Co., Ltd. (Taiwan) para el mercado chileno. Fundada en 1996, operamos desde la Zona Franca de Iquique, lo que nos permite importar directamente desde Taiwan con los beneficios arancelarios de la ZOFRI.
           </p>
 
           <p style={{ fontFamily: 'var(--font-body)', fontSize: '16px', color: 'var(--text)', lineHeight: 1.8, marginBottom: '40px' }}>

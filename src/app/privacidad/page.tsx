@@ -62,7 +62,7 @@ export default function PrivacidadPage() {
 
           <h2 style={h2Style}>1. Responsable del tratamiento</h2>
           <p style={pStyle}>
-            El responsable del tratamiento de los datos personales recabados a través del sitio web <strong>kendamoto.cl</strong> es <strong>Carioca Chile Ltda.</strong>, RUT no publicado en este documento por razones de seguridad, con domicilio en Zona Franca de Iquique (ZOFRI), Iquique, Región de Tarapacá, Chile.
+            El responsable del tratamiento de los datos personales recabados a través del sitio web <strong>kendamoto.cl</strong> es <strong>Carioca Chile Ltda.</strong>, RUT 78.846.500-9, con domicilio en Zona Franca de Iquique (ZOFRI), Iquique, Región de Tarapacá, Chile.
           </p>
           <p style={pStyle}>
             Para consultas sobre privacidad y tratamiento de datos, contáctenos en: <a href="mailto:ventas@kendamoto.cl" style={{ color: 'var(--kenda)' }}>ventas@kendamoto.cl</a>

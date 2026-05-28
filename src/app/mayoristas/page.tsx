@@ -42,7 +42,7 @@ const trustItems = [
   { icon: '📦', title: '+200 referencias', text: 'Stock permanente en bodega ZOFRI' },
   { icon: '⚡', title: 'Despacho 24-72h', text: 'A todo Chile desde Iquique' },
   { icon: '🧾', title: 'Factura electrónica', text: 'Contribuyente SII Chile' },
-  { icon: '🤝', title: '25+ años', text: 'Carioca Chile distribuyendo Kenda' },
+  { icon: '🤝', title: 'Desde 1996', text: 'Carioca Chile distribuyendo Kenda' },
 ]
 
 const planes = [
@@ -401,7 +401,7 @@ export default function MayoristasPage() {
                   marginBottom: '20px',
                 }}
               >
-                Carioca Chile Ltda. — Distribuidor oficial Kenda desde 2000
+                Carioca Chile Ltda. — Distribuidor oficial Kenda desde 1996
               </h2>
               <p
                 style={{

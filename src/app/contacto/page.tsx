@@ -55,7 +55,7 @@ export default function ContactoPage() {
             Contacto
           </h1>
           <p style={{ fontFamily: 'var(--font-body)', fontSize: '16px', color: 'var(--dim)', maxWidth: '520px', lineHeight: 1.6, marginTop: '16px' }}>
-            Distribuidor oficial exclusivo de Kenda Tires en Chile desde el año 2000. Bodega en Zona Franca de Iquique (ZOFRI).
+            Distribuidor oficial exclusivo de Kenda Tires en Chile. Bodega en Zona Franca de Iquique (ZOFRI).
           </p>
         </div>
       </section>
@@ -118,10 +118,14 @@ export default function ContactoPage() {
                 </h2>
                 <div style={{ fontFamily: 'var(--font-body)', fontSize: '14px', color: 'var(--text)', lineHeight: 2 }}>
                   <strong>Razón social:</strong><br />Carioca Chile Ltda.<br /><br />
-                  <strong>Actividad:</strong><br />Importación y distribución mayorista y minorista de neumáticos y cámaras Kenda<br /><br />
+                  <strong>RUT:</strong><br />78.846.500-9<br /><br />
+                  <strong>Tipo de empresa:</strong><br />Soc. de Responsabilidad Limitada<br /><br />
+                  <strong>Giro SII:</strong><br />Importadora y Exportadora de Bicicletas<br /><br />
+                  <strong>Año de fundación:</strong><br />1996<br /><br />
+                  <strong>Trabajadores:</strong><br />1–10<br /><br />
+                  <strong>Actividad:</strong><br />Importación y distribución de neumáticos y cámaras Kenda<br /><br />
                   <strong>Sede operativa:</strong><br />Zona Franca de Iquique (ZOFRI)<br />Iquique, Región de Tarapacá, Chile<br /><br />
-                  <strong>Cobertura:</strong><br />Las 16 regiones de Chile<br /><br />
-                  <strong>Distribuidor oficial desde:</strong><br />Año 2000
+                  <strong>Cobertura:</strong><br />Las 16 regiones de Chile
                 </div>
               </div>
 

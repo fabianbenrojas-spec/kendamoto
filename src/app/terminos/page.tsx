@@ -70,7 +70,7 @@ export default function TerminosPage() {
 
           <h2 style={h2Style}>1. Identificación del vendedor</h2>
           <p style={pStyle}>
-            El vendedor es <strong>Carioca Chile Ltda.</strong>, importador y distribuidor oficial exclusivo de neumáticos y cámaras Kenda en Chile, con domicilio en Zona Franca de Iquique (ZOFRI), Iquique, Región de Tarapacá. Los presentes términos y condiciones regulan las ventas realizadas a través del sitio web kendamoto.cl y de los canales de comunicación directa (WhatsApp, email) administrados por Carioca Chile Ltda.
+            El vendedor es <strong>Carioca Chile Ltda.</strong>, RUT 78.846.500-9, Sociedad de Responsabilidad Limitada, importador y distribuidor oficial exclusivo de neumáticos y cámaras Kenda en Chile, con domicilio en Zona Franca de Iquique (ZOFRI), Iquique, Región de Tarapacá. Los presentes términos y condiciones regulan las ventas realizadas a través del sitio web kendamoto.cl y de los canales de comunicación directa (WhatsApp, email) administrados por Carioca Chile Ltda.
           </p>
 
           <h2 style={h2Style}>2. Productos y disponibilidad</h2>

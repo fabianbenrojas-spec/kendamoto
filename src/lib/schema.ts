@@ -8,7 +8,9 @@ export function buildLocalBusinessSchema() {
     '@type': 'LocalBusiness',
     name: 'Carioca Chile Ltda. — Kenda Moto',
     legalName: 'Carioca Chile Ltda.',
-    foundingDate: '2000',
+    taxID: '78.846.500-9',
+    foundingDate: '1996',
+    numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 1, maxValue: 10 },
     url: absoluteUrl('/'),
     logo: absoluteUrl('/kenda-logo.png'),
     image: absoluteUrl('/og-default.jpg'),
@@ -47,9 +49,10 @@ export function buildOrganizationSchema() {
     '@type': 'Organization',
     name: 'Kenda Moto Chile',
     legalName: 'Carioca Chile Ltda.',
+    taxID: '78.846.500-9',
     url: absoluteUrl('/'),
     logo: absoluteUrl('/kenda-logo.png'),
-    foundingDate: '2000',
+    foundingDate: '1996',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
@@ -80,7 +83,7 @@ export function buildProductSchema(product: Product, size: Size, categoria: stri
     seller: {
       '@type': 'Organization',
       name: 'Carioca Chile Ltda.',
-      foundingDate: '2000',
+      foundingDate: '1996',
     },
     url,
     offers: {

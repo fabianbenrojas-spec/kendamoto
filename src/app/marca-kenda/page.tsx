@@ -6,7 +6,7 @@ import { buildBreadcrumb } from '@/lib/schema'
 export const metadata: Metadata = {
   title: 'Marca Kenda Tires — Historia, Tecnología y Distribución en Chile | Kenda Moto',
   description:
-    'Conoce la marca Kenda Tires: 60 años fabricando neumáticos de alto rendimiento. Distribuidor oficial en Chile desde 2000 — Carioca Chile Ltda. ZOFRI Iquique.',
+    'Conoce la marca Kenda Tires: 60 años fabricando neumáticos de alto rendimiento. Distribuidor oficial en Chile desde 1996 — Carioca Chile Ltda. ZOFRI Iquique.',
   alternates: { canonical: absoluteUrl('/marca-kenda/') },
 }
 
@@ -26,7 +26,7 @@ const sections = [
   {
     slug: 'distribuidores-chile',
     title: 'Distribuidores en Chile',
-    desc: 'Carioca Chile Ltda. — distribuidor oficial exclusivo desde el año 2000 desde ZOFRI Iquique.',
+    desc: 'Carioca Chile Ltda. — distribuidor oficial exclusivo desde 1996 desde ZOFRI Iquique.',
     icon: '🇨🇱',
   },
   {
@@ -55,7 +55,7 @@ export default function MarcaKendaPage() {
           </h1>
           <p style={{ fontFamily: 'var(--font-body)', fontSize: '16px', color: 'var(--dim)', maxWidth: '560px', lineHeight: 1.6 }}>
             60 años fabricando neumáticos de alta performance en Taiwan. Presente en más de 50 países.
-            Distribuidor oficial en Chile desde el año 2000 a través de Carioca Chile Ltda., ZOFRI Iquique.
+            Distribuidor oficial en Chile desde 1996 a través de Carioca Chile Ltda. (RUT 78.846.500-9), ZOFRI Iquique.
           </p>
         </div>
       </section>
