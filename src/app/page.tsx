@@ -6,6 +6,7 @@ import { getFeaturedPosts } from '@/lib/blog'
 import { buildFAQ, buildBreadcrumb } from '@/lib/schema'
 import { absoluteUrl } from '@/lib/site'
 import { ProductCard } from '@/components/home/ProductCard'
+import { TireFinder } from '@/components/finder/TireFinder'
 
 export const metadata: Metadata = {
   title: 'Neumáticos Kenda Moto Chile | Distribuidor Iquique ZOFRI | Envío Gratis',
@@ -23,30 +24,30 @@ const categories = [
   {
     slug: 'enduro',
     name: 'Enduro',
-    desc: 'K778 & K779 — Hard y soft terrain',
-    models: '2 modelos · 8+ medidas',
+    desc: 'K779 Knarly (delantera) · K778 Knarly (trasera)',
+    models: '2 modelos · 4 medidas',
     col: '1',
   },
   {
     slug: 'trail-adventure',
     name: 'Trail Adventure',
-    desc: 'K784 Big Block — El más versátil',
-    models: '4 modelos · 12+ medidas',
+    desc: 'K784 Big Block — El más versátil para adventure',
+    models: '3 modelos · 17 medidas',
     col: '2',
     featured: true,
   },
   {
     slug: 'cross-motocross',
     name: 'Motocross',
-    desc: 'K785 Millville & K782 Sand Mad',
-    models: '2 modelos · 6+ medidas',
+    desc: 'K785 Millville · K782 Sand Mad',
+    models: '2 modelos · 12 medidas',
     col: '1',
   },
   {
     slug: 'calle-carretera',
-    name: 'Calle / Carretera',
-    desc: 'K787 Equilibrium — Sport Touring',
-    models: '2 modelos · 8+ medidas',
+    name: 'Calle / Clásico',
+    desc: 'K787 Equilibrium (clásico) · K761 Dual Sport',
+    models: '2 modelos · 9 medidas',
     col: '1',
   },
 ]
@@ -304,6 +305,30 @@ export default async function HomePage() {
               Ver todas las categorías
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* TIRE FINDER */}
+      <section style={{ padding: '80px 0', background: 'var(--ink)', color: 'white' }}>
+        <div className="wrap">
+          <div className="eyebrow mb-3" style={{ color: 'var(--kenda)' }}>Buscador de neumático</div>
+          <h2
+            style={{
+              fontFamily: 'var(--font-display)',
+              fontWeight: 800,
+              fontSize: 'clamp(28px, 5vw, 48px)',
+              letterSpacing: '-0.01em',
+              textTransform: 'uppercase',
+              marginBottom: '8px',
+              lineHeight: 1,
+            }}
+          >
+            ¿Qué neumático necesita tu moto?
+          </h2>
+          <p style={{ fontFamily: 'var(--font-body)', fontSize: '15px', color: 'var(--dim)', marginBottom: '32px' }}>
+            Selecciona el tipo de uso y te mostramos el modelo Kenda indicado.
+          </p>
+          <TireFinder />
         </div>
       </section>
 

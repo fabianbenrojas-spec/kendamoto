@@ -1,9 +1,9 @@
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { getProducts, getProductBySlug, getSizeFromSlug, sizeToSlug } from '@/lib/products'
+import { getProducts, getProductBySlug, getProductsByCategory, getSizeFromSlug, sizeToSlug } from '@/lib/products'
 import { buildProductSchema, buildBreadcrumb } from '@/lib/schema'
 import { absoluteUrl } from '@/lib/site'
-import { formatPriceCLP } from '@/lib/products'
+import { formatPriceCLP, getDefaultSize } from '@/lib/products'
 import { ProductPageClient } from '@/components/product/ProductPageClient'
 import Link from 'next/link'
 
@@ -53,6 +53,8 @@ export default async function ProductSizePage({ params }: Props) {
   if (!product || !selectedSize) notFound()
 
   const allSizes = product.sizes ?? []
+  const categoryProducts = await getProductsByCategory(categoria)
+  const relatedProducts = categoryProducts.filter(p => p.slug !== modelo)
 
   const productSchema = buildProductSchema(product, selectedSize, categoria)
   const breadcrumb = buildBreadcrumb([
@@ -128,6 +130,7 @@ export default async function ProductSizePage({ params }: Props) {
         allSizes={allSizes}
         categoria={categoria}
         modelo={modelo}
+        relatedProducts={relatedProducts}
       />
     </>
   )

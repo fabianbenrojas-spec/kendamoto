@@ -7,6 +7,9 @@ import { buildBreadcrumb, buildFAQ, buildCollectionPage } from '@/lib/schema'
 import categories from '@/data/categories.json'
 import type { CategoryData } from '@/lib/types'
 
+type TerrainCard = { terrain: string; icon: string; percentage: number; description: string; model: string }
+type CompatMoto = { make: string; model: string; front: string; rear: string; cc: string }
+
 interface Props {
   params: Promise<{ categoria: string }>
 }
@@ -419,6 +422,160 @@ export default async function CategoryPage({ params }: Props) {
           )}
         </div>
       </section>
+
+      {/* Terrain cards */}
+      {(cat as CategoryData & { terrainCards?: TerrainCard[] }).terrainCards && (
+        <section style={{ padding: '64px 0', background: 'var(--cream)' }}>
+          <div className="wrap">
+            <div className="eyebrow mb-4">Uso por terreno</div>
+            <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 'clamp(22px, 4vw, 36px)', textTransform: 'uppercase', letterSpacing: '-0.01em', marginBottom: '32px' }}>
+              ¿En qué terreno rinde mejor?
+            </h2>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px' }}>
+              {((cat as CategoryData & { terrainCards: TerrainCard[] }).terrainCards).map((tc) => (
+                <div key={tc.terrain} style={{ background: 'white', border: '1px solid var(--line)', padding: '24px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+                    <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '15px', textTransform: 'uppercase', letterSpacing: '-0.01em' }}>{tc.terrain}</div>
+                    <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '22px', color: 'var(--kenda)' }}>{tc.percentage}%</div>
+                  </div>
+                  <div style={{ height: '4px', background: 'var(--line)', marginBottom: '12px', borderRadius: '2px', overflow: 'hidden' }}>
+                    <div style={{ height: '100%', width: `${tc.percentage}%`, background: 'var(--kenda)' }} />
+                  </div>
+                  <div style={{ fontFamily: 'var(--font-body)', fontSize: '13px', color: 'var(--muted)', lineHeight: 1.5, marginBottom: '8px' }}>{tc.description}</div>
+                  <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '11px', letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--dim)' }}>{tc.model}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Popular sizes */}
+      {(cat as CategoryData & { popularSizes?: string[] }).popularSizes?.length && (
+        <section style={{ padding: '64px 0', background: 'var(--paper)' }}>
+          <div className="wrap">
+            <div className="eyebrow mb-4">Medidas</div>
+            <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 'clamp(22px, 4vw, 36px)', textTransform: 'uppercase', letterSpacing: '-0.01em', marginBottom: '8px' }}>
+              Medidas disponibles
+            </h2>
+            <p style={{ fontFamily: 'var(--font-body)', fontSize: '14px', color: 'var(--muted)', marginBottom: '28px' }}>
+              Haz clic en una medida para ver todos los modelos disponibles en esa dimensión.
+            </p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+              {((cat as CategoryData & { popularSizes: string[] }).popularSizes).map((size) => (
+                <Link
+                  key={size}
+                  href={`/neumaticos-kenda-moto/medida/${size.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')}/`}
+                  style={{
+                    fontFamily: 'var(--font-display)',
+                    fontWeight: 700,
+                    fontSize: '13px',
+                    letterSpacing: '0.04em',
+                    padding: '10px 18px',
+                    background: 'var(--cream)',
+                    border: '1px solid var(--line)',
+                    color: 'var(--text)',
+                    textDecoration: 'none',
+                    transition: 'all 0.15s',
+                  }}
+                >
+                  {size}
+                </Link>
+              ))}
+              <Link
+                href="/neumaticos-kenda-moto/medida/"
+                style={{
+                  fontFamily: 'var(--font-display)',
+                  fontWeight: 700,
+                  fontSize: '13px',
+                  letterSpacing: '0.04em',
+                  padding: '10px 18px',
+                  background: 'transparent',
+                  border: '1px solid var(--kenda)',
+                  color: 'var(--kenda)',
+                  textDecoration: 'none',
+                }}
+              >
+                Ver todas →
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Compatible motos */}
+      {(cat as CategoryData & { compatibleMotos?: CompatMoto[] }).compatibleMotos?.length && (
+        <section style={{ padding: '64px 0', background: 'var(--cream)' }}>
+          <div className="wrap">
+            <div className="eyebrow mb-4">Compatibilidad</div>
+            <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 'clamp(22px, 4vw, 36px)', textTransform: 'uppercase', letterSpacing: '-0.01em', marginBottom: '8px' }}>
+              Motos compatibles
+            </h2>
+            <p style={{ fontFamily: 'var(--font-body)', fontSize: '14px', color: 'var(--muted)', marginBottom: '28px' }}>
+              Medidas recomendadas por modelo de moto. Verifica siempre el manual del fabricante.
+            </p>
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+                <thead>
+                  <tr style={{ background: 'var(--ink)', color: 'white' }}>
+                    {['Moto', 'cc', 'Delantera', 'Trasera', ''].map(h => (
+                      <th key={h} style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '11px', letterSpacing: '0.08em', textTransform: 'uppercase', padding: '12px 16px', textAlign: 'left' }}>{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {((cat as CategoryData & { compatibleMotos: CompatMoto[] }).compatibleMotos).map((m, i) => (
+                    <tr key={i} style={{ background: i % 2 === 0 ? 'white' : 'var(--paper)', borderBottom: '1px solid var(--line)' }}>
+                      <td style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '14px', padding: '14px 16px' }}>{m.make} {m.model}</td>
+                      <td style={{ fontFamily: 'var(--font-body)', fontSize: '13px', color: 'var(--muted)', padding: '14px 16px' }}>{m.cc} cc</td>
+                      <td style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '13px', padding: '14px 16px', color: 'var(--kenda)' }}>{m.front}</td>
+                      <td style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '13px', padding: '14px 16px', color: 'var(--kenda)' }}>{m.rear}</td>
+                      <td style={{ padding: '14px 16px' }}>
+                        <Link href={`/neumaticos-kenda-moto/medida/${m.front.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')}/`} style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '11px', letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--kenda)', textDecoration: 'none' }}>Ver medida →</Link>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Related categories */}
+      {cat.relatedCategories && cat.relatedCategories.length > 0 && (
+        <section style={{ padding: '48px 0', background: 'var(--paper)' }}>
+          <div className="wrap">
+            <div className="eyebrow mb-4">También puede interesarte</div>
+            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+              {cat.relatedCategories.map(slug => {
+                const related = categories.find(c => c.slug === slug)
+                if (!related) return null
+                return (
+                  <Link
+                    key={slug}
+                    href={`/neumaticos-kenda-moto/${slug}/`}
+                    style={{
+                      fontFamily: 'var(--font-display)',
+                      fontWeight: 700,
+                      fontSize: '13px',
+                      letterSpacing: '0.06em',
+                      textTransform: 'uppercase',
+                      padding: '12px 20px',
+                      background: 'var(--cream)',
+                      border: '1px solid var(--line)',
+                      color: 'var(--text)',
+                      textDecoration: 'none',
+                    }}
+                  >
+                    {related.name} →
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* FAQ */}
       {cat.faq && cat.faq.length > 0 && (
