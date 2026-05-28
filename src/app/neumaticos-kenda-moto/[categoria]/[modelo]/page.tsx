@@ -1,8 +1,13 @@
 import { redirect, notFound } from 'next/navigation'
-import { getProductBySlug, getDefaultSize, sizeToSlug } from '@/lib/products'
+import { getProducts, getProductBySlug, getDefaultSize, sizeToSlug } from '@/lib/products'
 
 interface Props {
   params: Promise<{ categoria: string; modelo: string }>
+}
+
+export async function generateStaticParams() {
+  const products = await getProducts()
+  return products.map(p => ({ categoria: p.category, modelo: p.slug }))
 }
 
 export default async function ProductRootPage({ params }: Props) {
