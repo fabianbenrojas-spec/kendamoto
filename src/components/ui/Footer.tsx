@@ -129,6 +129,7 @@ export function Footer() {
                 { label: 'Marca Kenda', href: '/marca-kenda/' },
                 { label: 'Historia Kenda', href: '/marca-kenda/historia/' },
                 { label: 'Blog', href: '/blog/' },
+                { label: 'Contacto', href: '/contacto/' },
               ].map(item => (
                 <Link
                   key={item.href}
@@ -168,7 +169,10 @@ export function Footer() {
               color: 'var(--dim)',
             }}
           >
-            © {new Date().getFullYear()} Carioca Chile Ltda. · Todos los derechos reservados
+            © {new Date().getFullYear()} Carioca Chile Ltda. · Todos los derechos reservados ·{' '}
+            <Link href="/privacidad/" style={{ color: 'var(--dim)', textDecoration: 'none' }}>Privacidad</Link>
+            {' · '}
+            <Link href="/terminos/" style={{ color: 'var(--dim)', textDecoration: 'none' }}>Términos</Link>
           </div>
           <div
             style={{
