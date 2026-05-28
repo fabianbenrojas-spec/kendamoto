@@ -14,6 +14,10 @@ export interface BlogPost {
   image?: string
   featured?: boolean
   content: string
+  tldr?: string
+  keyPoints?: string[]
+  relatedProducts?: { ref: string; name: string; href: string; tagline: string }[]
+  relatedPosts?: string[]
 }
 
 const contentDir = path.join(process.cwd(), 'content/blog')
@@ -40,6 +44,10 @@ export function getAllPosts(): BlogPost[] {
         image: data.image,
         featured: data.featured ?? false,
         content,
+        tldr: data.tldr,
+        keyPoints: data.keyPoints,
+        relatedProducts: data.relatedProducts,
+        relatedPosts: data.relatedPosts,
       } as BlogPost
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -64,6 +72,10 @@ export function getPostBySlug(slug: string): BlogPost | null {
     image: data.image,
     featured: data.featured ?? false,
     content,
+    tldr: data.tldr,
+    keyPoints: data.keyPoints,
+    relatedProducts: data.relatedProducts,
+    relatedPosts: data.relatedPosts,
   }
 }
 

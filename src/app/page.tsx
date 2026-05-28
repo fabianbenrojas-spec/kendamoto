@@ -320,16 +320,68 @@ export default async function HomePage() {
               fontSize: 'clamp(28px, 5vw, 48px)',
               letterSpacing: '-0.01em',
               textTransform: 'uppercase',
-              marginBottom: '8px',
+              marginBottom: '16px',
               lineHeight: 1,
             }}
           >
             ¿Qué neumático necesita tu moto?
           </h2>
-          <p style={{ fontFamily: 'var(--font-body)', fontSize: '15px', color: 'var(--dim)', marginBottom: '32px' }}>
-            Selecciona el tipo de uso y te mostramos el modelo Kenda indicado.
-          </p>
+
+          {/* Quick stats */}
+          <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', marginBottom: '20px' }}>
+            {[
+              { value: '7', label: 'modelos Kenda' },
+              { value: '31', label: 'medidas en stock' },
+              { value: '5', label: 'categorías' },
+              { value: '100%', label: 'originales' },
+            ].map(s => (
+              <div key={s.label} style={{ display: 'flex', alignItems: 'baseline', gap: '6px' }}>
+                <span style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '20px', color: 'var(--kenda)' }}>{s.value}</span>
+                <span style={{ fontFamily: 'var(--font-body)', fontSize: '12px', color: 'var(--dim)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>{s.label}</span>
+              </div>
+            ))}
+          </div>
+
+          {/* Tab descriptions */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '1px', background: 'var(--line-dark)', marginBottom: '32px' }}>
+            {[
+              { tab: 'Por Uso', desc: 'Terrain → modelo Kenda recomendado' },
+              { tab: 'Por Moto', desc: 'Marca / modelo → medidas compatibles' },
+              { tab: 'Por Medida', desc: 'Ancho / perfil / aro → productos disponibles' },
+            ].map(item => (
+              <div key={item.tab} style={{ background: 'var(--ink-2)', padding: '12px 16px' }}>
+                <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '11px', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--kenda)', marginBottom: '3px' }}>{item.tab}</div>
+                <div style={{ fontFamily: 'var(--font-body)', fontSize: '12px', color: 'var(--dim)' }}>{item.desc}</div>
+              </div>
+            ))}
+          </div>
+
           <TireFinder />
+
+          {/* Escape hatch */}
+          <div style={{ marginTop: '28px', paddingTop: '20px', borderTop: '1px solid var(--line-dark)', display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+            <span style={{ fontFamily: 'var(--font-body)', fontSize: '13px', color: 'var(--dim)' }}>
+              ¿No encontraste tu moto o medida?
+            </span>
+            <a
+              href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP?.replace(/[^0-9]/g, '') ?? '56900000000'}?text=${encodeURIComponent('Hola, busco neumáticos Kenda para mi moto y no encuentro la medida/modelo. ¿Pueden ayudarme?')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontFamily: 'var(--font-display)',
+                fontWeight: 700,
+                fontSize: '12px',
+                letterSpacing: '0.08em',
+                textTransform: 'uppercase',
+                color: '#25D366',
+                textDecoration: 'none',
+                border: '1px solid rgba(37,211,102,0.3)',
+                padding: '6px 14px',
+              }}
+            >
+              Consultar por WhatsApp →
+            </a>
+          </div>
         </div>
       </section>
 
