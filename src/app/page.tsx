@@ -5,8 +5,9 @@ import { getFeaturedProducts } from '@/lib/products'
 import { getFeaturedPosts } from '@/lib/blog'
 import { buildFAQ, buildBreadcrumb } from '@/lib/schema'
 import { absoluteUrl } from '@/lib/site'
-import { ProductCard } from '@/components/home/ProductCard'
 import { TireFinder } from '@/components/finder/TireFinder'
+import { FeaturedProductsFilter } from '@/components/home/FeaturedProductsFilter'
+import { FAQAccordion } from '@/components/ui/FAQAccordion'
 
 export const metadata: Metadata = {
   title: 'Neumáticos Kenda Moto Chile | Distribuidor Iquique ZOFRI | Envío Gratis',
@@ -349,17 +350,7 @@ export default async function HomePage() {
           >
             Los más vendidos
           </h2>
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
-              gap: '16px',
-            }}
-          >
-            {featuredProducts.map(product => (
-              <ProductCard key={product.slug} product={product} />
-            ))}
-          </div>
+          <FeaturedProductsFilter products={featuredProducts} />
         </div>
       </section>
 
@@ -646,45 +637,7 @@ export default async function HomePage() {
           >
             FAQ
           </h2>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1px' }}>
-            {faqItems.map((item, i) => (
-              <details
-                key={i}
-                style={{
-                  background: 'var(--cream)',
-                  border: '1px solid var(--line)',
-                }}
-              >
-                <summary
-                  style={{
-                    padding: '20px 24px',
-                    fontFamily: 'var(--font-display)',
-                    fontWeight: 700,
-                    fontSize: '16px',
-                    cursor: 'pointer',
-                    listStyle: 'none',
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                  }}
-                >
-                  {item.question}
-                  <span style={{ color: 'var(--kenda)', flexShrink: 0 }}>+</span>
-                </summary>
-                <div
-                  style={{
-                    padding: '0 24px 20px',
-                    fontFamily: 'var(--font-body)',
-                    fontSize: '14px',
-                    color: 'var(--muted)',
-                    lineHeight: 1.7,
-                  }}
-                >
-                  {item.answer}
-                </div>
-              </details>
-            ))}
-          </div>
+          <FAQAccordion items={faqItems} />
         </div>
       </section>
     </>

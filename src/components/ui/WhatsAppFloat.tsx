@@ -1,11 +1,18 @@
 'use client'
 
+import { useEffect, useState } from 'react'
 import { WHATSAPP_NUMBER } from '@/lib/site'
 
 const message = 'Hola, me interesa comprar neumáticos Kenda para moto. ¿Pueden ayudarme?'
 
 export function WhatsAppFloat() {
+  const [visible, setVisible] = useState(false)
   const url = `https://wa.me/${WHATSAPP_NUMBER.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`
+
+  useEffect(() => {
+    const t = setTimeout(() => setVisible(true), 2000)
+    return () => clearTimeout(t)
+  }, [])
 
   return (
     <a
@@ -31,14 +38,17 @@ export function WhatsAppFloat() {
         fontWeight: 700,
         fontSize: '13px',
         letterSpacing: '0.04em',
-        transition: 'transform 0.15s, box-shadow 0.15s',
+        opacity: visible ? 1 : 0,
+        transform: visible ? 'translateY(0) scale(1)' : 'translateY(16px) scale(0.95)',
+        transition: 'opacity 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.15s',
+        pointerEvents: visible ? 'auto' : 'none',
       }}
       onMouseEnter={e => {
         e.currentTarget.style.transform = 'scale(1.05)'
         e.currentTarget.style.boxShadow = '0 6px 24px rgba(37, 211, 102, 0.5)'
       }}
       onMouseLeave={e => {
-        e.currentTarget.style.transform = 'scale(1)'
+        e.currentTarget.style.transform = 'translateY(0) scale(1)'
         e.currentTarget.style.boxShadow = '0 4px 16px rgba(37, 211, 102, 0.4)'
       }}
     >

@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { absoluteUrl } from '@/lib/site'
 import { buildFAQ, buildBreadcrumb, buildLocalBusinessSchema } from '@/lib/schema'
+import { B2BForm } from '@/components/mayoristas/B2BForm'
+import { QuoteCalculator } from '@/components/mayoristas/QuoteCalculator'
+import { FAQAccordion } from '@/components/ui/FAQAccordion'
 
 export const metadata: Metadata = {
   title: 'Mayorista Neumáticos Moto Chile — Distribuidor Kenda ZOFRI Iquique | B2B',
@@ -184,145 +187,7 @@ export default function MayoristasPage() {
             </div>
 
             {/* B2B Form */}
-            <div
-              style={{
-                background: 'white',
-                color: 'var(--text)',
-                padding: '32px',
-              }}
-            >
-              <div
-                style={{
-                  fontFamily: 'var(--font-display)',
-                  fontWeight: 800,
-                  fontSize: '20px',
-                  textTransform: 'uppercase',
-                  letterSpacing: '-0.01em',
-                  marginBottom: '24px',
-                }}
-              >
-                Solicitar Cuenta B2B
-              </div>
-              <form
-                action="/api/contact-b2b"
-                method="POST"
-                style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}
-              >
-                {[
-                  { name: 'nombre', label: 'Nombre completo', type: 'text' },
-                  { name: 'empresa', label: 'Empresa / Taller', type: 'text' },
-                  { name: 'ciudad', label: 'Ciudad', type: 'text' },
-                  { name: 'telefono', label: 'Teléfono / WhatsApp', type: 'tel' },
-                  { name: 'email', label: 'Email', type: 'email' },
-                ].map(field => (
-                  <div key={field.name}>
-                    <label
-                      style={{
-                        fontFamily: 'var(--font-body)',
-                        fontSize: '12px',
-                        fontWeight: 600,
-                        color: 'var(--muted)',
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.06em',
-                        display: 'block',
-                        marginBottom: '4px',
-                      }}
-                    >
-                      {field.label}
-                    </label>
-                    <input
-                      type={field.type}
-                      name={field.name}
-                      required
-                      style={{
-                        width: '100%',
-                        padding: '10px 12px',
-                        border: '1px solid var(--line-2)',
-                        fontFamily: 'var(--font-body)',
-                        fontSize: '14px',
-                        background: 'var(--paper)',
-                        outline: 'none',
-                      }}
-                    />
-                  </div>
-                ))}
-                <div>
-                  <label
-                    style={{
-                      fontFamily: 'var(--font-body)',
-                      fontSize: '12px',
-                      fontWeight: 600,
-                      color: 'var(--muted)',
-                      textTransform: 'uppercase',
-                      letterSpacing: '0.06em',
-                      display: 'block',
-                      marginBottom: '4px',
-                    }}
-                  >
-                    Tipo de negocio
-                  </label>
-                  <select
-                    name="tipo_negocio"
-                    required
-                    style={{
-                      width: '100%',
-                      padding: '10px 12px',
-                      border: '1px solid var(--line-2)',
-                      fontFamily: 'var(--font-body)',
-                      fontSize: '14px',
-                      background: 'var(--paper)',
-                    }}
-                  >
-                    <option value="">Seleccionar...</option>
-                    <option value="taller">Taller mecánico de motos</option>
-                    <option value="tienda">Tienda repuestos moto</option>
-                    <option value="distribuidor">Distribuidor mayorista</option>
-                    <option value="concesionario">Concesionario de motos</option>
-                    <option value="otro">Otro</option>
-                  </select>
-                </div>
-                <div>
-                  <label
-                    style={{
-                      fontFamily: 'var(--font-body)',
-                      fontSize: '12px',
-                      fontWeight: 600,
-                      color: 'var(--muted)',
-                      textTransform: 'uppercase',
-                      letterSpacing: '0.06em',
-                      display: 'block',
-                      marginBottom: '4px',
-                    }}
-                  >
-                    Volumen mensual estimado
-                  </label>
-                  <select
-                    name="volumen"
-                    style={{
-                      width: '100%',
-                      padding: '10px 12px',
-                      border: '1px solid var(--line-2)',
-                      fontFamily: 'var(--font-body)',
-                      fontSize: '14px',
-                      background: 'var(--paper)',
-                    }}
-                  >
-                    <option value="">Seleccionar...</option>
-                    <option value="6-12">6-12 unidades / mes</option>
-                    <option value="12-30">12-30 unidades / mes</option>
-                    <option value="30-50">30-50 unidades / mes</option>
-                    <option value="50+">+50 unidades / mes</option>
-                  </select>
-                </div>
-                <button
-                  type="submit"
-                  className="btn-primary"
-                  style={{ marginTop: '8px', justifyContent: 'center' }}
-                >
-                  Solicitar Cuenta B2B
-                </button>
-              </form>
-            </div>
+            <B2BForm />
           </div>
         </div>
       </section>
@@ -616,8 +481,15 @@ export default function MayoristasPage() {
         </div>
       </section>
 
+      {/* Quote Calculator */}
+      <section style={{ padding: '80px 0', background: 'var(--paper)' }}>
+        <div className="wrap" style={{ maxWidth: '800px' }}>
+          <QuoteCalculator />
+        </div>
+      </section>
+
       {/* FAQ B2B */}
-      <section style={{ padding: '64px 0', background: 'var(--paper)' }}>
+      <section style={{ padding: '64px 0', background: 'var(--cream)' }}>
         <div className="wrap" style={{ maxWidth: '800px' }}>
           <div className="eyebrow mb-4">FAQ Mayoristas</div>
           <h2
@@ -633,39 +505,7 @@ export default function MayoristasPage() {
           >
             Preguntas frecuentes B2B
           </h2>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1px' }}>
-            {faqB2B.map((item, i) => (
-              <details key={i} style={{ background: 'var(--cream)', border: '1px solid var(--line)' }}>
-                <summary
-                  style={{
-                    padding: '18px 24px',
-                    fontFamily: 'var(--font-display)',
-                    fontWeight: 700,
-                    fontSize: '15px',
-                    cursor: 'pointer',
-                    listStyle: 'none',
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                  }}
-                >
-                  {item.question}
-                  <span style={{ color: 'var(--kenda)', flexShrink: 0 }}>+</span>
-                </summary>
-                <div
-                  style={{
-                    padding: '0 24px 18px',
-                    fontFamily: 'var(--font-body)',
-                    fontSize: '14px',
-                    color: 'var(--muted)',
-                    lineHeight: 1.7,
-                  }}
-                >
-                  {item.answer}
-                </div>
-              </details>
-            ))}
-          </div>
+          <FAQAccordion items={faqB2B} />
 
           <div
             style={{
