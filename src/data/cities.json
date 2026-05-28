@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "iquique",
+    "name": "Iquique",
+    "region": "Tarapacá",
+    "isSede": true,
+    "h1": "Neumáticos Moto Iquique — Distribuidor Kenda ZOFRI",
+    "description": "Compra neumáticos Kenda para moto en Iquique directamente desde nuestra bodega en la Zona Franca ZOFRI. Precios mayoristas, stock inmediato y despacho el mismo día.",
+    "deliveryDays": "24h",
+    "localContent": "Distribución directa desde nuestra bodega en Zona Franca ZOFRI Iquique. Al ser nuestra sede principal, ofrecemos el mayor stock disponible de neumáticos Kenda para moto en el norte de Chile, con precios directos de importación.",
+    "terrain": "Desierto · Atacama · Norte Grande",
+    "vol": 0,
+    "priority": 1
+  },
+  {
+    "slug": "concepcion",
+    "name": "Concepción",
+    "region": "Biobío",
+    "isSede": false,
+    "h1": "Neumáticos Moto Concepción — Kenda Chile Envío Gratis",
+    "description": "Distribuidor oficial Kenda en Concepción y Biobío. Enduro, trail y adventure para las rutas del sur de Chile. Envío gratis en 3-4 días hábiles.",
+    "deliveryDays": "3-4 días hábiles",
+    "localContent": "Concepción es uno de los principales mercados de motos enduro y trail en Chile. La zona del Biobío, con sus cerros, bosques y caminos de ripio, es ideal para el uso de neumáticos Kenda K778 (enduro hard) y K784 Big Block (trail adventure).",
+    "terrain": "Enduro · Biobío · Sur de Chile",
+    "vol": 2400,
+    "priority": 1
+  },
+  {
+    "slug": "santiago",
+    "name": "Santiago",
+    "region": "Región Metropolitana",
+    "isSede": false,
+    "h1": "Neumáticos Moto Santiago — Kenda Chile Envío Gratis",
+    "description": "Distribuidor oficial Kenda en Santiago. Amplio stock de neumáticos para moto con envío gratis en 2-3 días hábiles a toda la Región Metropolitana.",
+    "deliveryDays": "2-3 días hábiles",
+    "localContent": "Santiago concentra el mayor parque de motos de Chile. Desde el Cajón del Maipo hasta las rutas de montaña de los Andes, los motociclistas santiaguinos exigen neumáticos versátiles como el Kenda K761 Dual Sport y el K787 Equilibrium.",
+    "terrain": "Urbano · Cordillera · Carretera",
+    "vol": 210,
+    "priority": 1
+  },
+  {
+    "slug": "valparaiso",
+    "name": "Valparaíso / Viña del Mar",
+    "region": "Valparaíso",
+    "isSede": false,
+    "h1": "Neumáticos Moto Valparaíso — Kenda Chile Envío Gratis",
+    "description": "Distribuidor oficial Kenda en Valparaíso y Viña del Mar. Envío gratis en 2-3 días hábiles. Stock permanente de los modelos más populares.",
+    "deliveryDays": "2-3 días hábiles",
+    "localContent": "La V Región con sus rutas costeras y acceso a los Andes hace de Valparaíso un mercado ideal para neumáticos dual sport y trail adventure de la marca Kenda.",
+    "terrain": "Costa · Carretera · Trail",
+    "vol": 990,
+    "priority": 2
+  },
+  {
+    "slug": "temuco",
+    "name": "Temuco",
+    "region": "Araucanía",
+    "isSede": false,
+    "h1": "Neumáticos Moto Temuco — Kenda Chile Envío Gratis",
+    "description": "Distribuidor oficial Kenda en Temuco y La Araucanía. Enduro y trail para los bosques del sur. Envío gratis en 3-4 días hábiles.",
+    "deliveryDays": "3-4 días hábiles",
+    "localContent": "La Araucanía es una de las regiones más exigentes para las motos. Sus caminos de tierra y barro, los senderos del Parque Nacional Conguillío y las rutas de los Lagos hacen del Kenda K779 y K778 las opciones preferidas de los moteros de Temuco.",
+    "terrain": "Enduro · Bosques · Araucanía",
+    "vol": 480,
+    "priority": 2
+  },
+  {
+    "slug": "antofagasta",
+    "name": "Antofagasta",
+    "region": "Antofagasta",
+    "isSede": false,
+    "h1": "Neumáticos Moto Antofagasta — Kenda Chile Envío Gratis",
+    "description": "Distribuidor oficial Kenda en Antofagasta. Neumáticos para moto en desierto y carretera. Envío gratis en 2-3 días hábiles desde ZOFRI Iquique.",
+    "deliveryDays": "2-3 días hábiles",
+    "localContent": "Antofagasta es la puerta de entrada al Desierto de Atacama. Las rutas del altiplano, los caminos de tierra hacia el interior y la Ruta 1 costera exigen neumáticos resistentes como el Kenda K784 Big Block y el K782 Sand Mad.",
+    "terrain": "Desierto · Atacama · Norte",
+    "vol": 0,
+    "priority": 2
+  },
+  {
+    "slug": "la-serena",
+    "name": "La Serena",
+    "region": "Coquimbo",
+    "isSede": false,
+    "h1": "Neumáticos Moto La Serena — Kenda Chile Envío Gratis",
+    "description": "Distribuidor oficial Kenda en La Serena y Coquimbo. Amplio catálogo de neumáticos para moto. Envío gratis en 3-4 días hábiles.",
+    "deliveryDays": "3-4 días hábiles",
+    "localContent": "La Región de Coquimbo, con sus valles, playas y el acceso al Valle del Elqui, es ideal para motos adventure y dual sport. Los neumáticos Kenda K761 y K784 son los más solicitados en La Serena.",
+    "terrain": "Mixto · Valle · Carretera",
+    "vol": 0,
+    "priority": 3
+  }
+]

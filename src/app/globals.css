@@ -1,0 +1,189 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kenda: #E30613;
+  --color-kenda-dark: #B0040F;
+  --color-kenda-light: #FF2030;
+  --color-kenda-tint: #fdecec;
+  --color-black: #0a0a0a;
+  --color-ink: #141414;
+  --color-ink-2: #1c1c1c;
+  --color-ink-3: #262626;
+  --color-line-dark: #2a2a2a;
+  --color-cream: #f5f1ea;
+  --color-cream-2: #ebe7df;
+  --color-paper: #fbf8f3;
+  --color-line: #e2ddd2;
+  --color-line-2: #cfc8b8;
+  --color-text: #141414;
+  --color-muted: #6b6860;
+  --color-dim: #9a9790;
+  --color-green: #16a34a;
+  --color-green-bg: #f0fdf4;
+  --color-amber: #d97706;
+  --color-blue: #1a4fa0;
+  --color-blue-bg: #eef3fc;
+  --color-whatsapp: #25D366;
+  --font-display: 'Barlow Condensed', 'Helvetica Neue', sans-serif;
+  --font-body: 'Barlow', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --width-site: 1400px;
+}
+
+:root {
+  --kenda: #E30613;
+  --kenda-dark: #B0040F;
+  --kenda-light: #FF2030;
+  --kenda-tint: #fdecec;
+  --black: #0a0a0a;
+  --ink: #141414;
+  --ink-2: #1c1c1c;
+  --ink-3: #262626;
+  --line-dark: #2a2a2a;
+  --cream: #f5f1ea;
+  --cream-2: #ebe7df;
+  --paper: #fbf8f3;
+  --line: #e2ddd2;
+  --line-2: #cfc8b8;
+  --text: #141414;
+  --muted: #6b6860;
+  --dim: #9a9790;
+  --green: #16a34a;
+  --green-bg: #f0fdf4;
+  --amber: #d97706;
+  --blue: #1a4fa0;
+  --blue-bg: #eef3fc;
+  --whatsapp: #25D366;
+  --max: 1400px;
+  --pad-x: 48px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad-x);
+}
+
+@media (max-width: 768px) {
+  :root { --pad-x: 20px; }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.marquee-track { animation: marquee 30s linear infinite; }
+.marquee-track:hover { animation-play-state: paused; }
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--kenda);
+}
+.eyebrow::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--kenda);
+  flex-shrink: 0;
+}
+
+.btn-primary {
+  background: var(--kenda);
+  color: white;
+  padding: 12px 24px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.15s;
+  text-decoration: none;
+}
+.btn-primary:hover { background: var(--kenda-dark); }
+
+.btn-ghost {
+  background: transparent;
+  color: white;
+  padding: 12px 24px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 1px solid rgba(255,255,255,0.25);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: border-color 0.15s;
+  text-decoration: none;
+}
+.btn-ghost:hover { border-color: white; }
+
+.btn-outline {
+  background: transparent;
+  color: var(--text);
+  padding: 12px 24px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 1px solid var(--line-2);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.15s;
+  text-decoration: none;
+}
+.btn-outline:hover { border-color: var(--kenda); color: var(--kenda); }
+
+.btn-b2b {
+  background: var(--ink);
+  color: white;
+  padding: 12px 24px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.15s;
+  text-decoration: none;
+}
+.btn-b2b:hover { background: var(--ink-3); }
+
+.product-card:hover {
+  border-color: var(--kenda) !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.category-card:hover { opacity: 0.9; }

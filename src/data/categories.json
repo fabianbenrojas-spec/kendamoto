@@ -1,0 +1,237 @@
+[
+  {
+    "slug": "trail-adventure",
+    "name": "Trail Adventure",
+    "h1": "Neumáticos Trail Adventure Kenda Chile",
+    "metaTitle": "Neumáticos Trail Adventure Kenda Chile | K784 Big Block | Kenda Moto",
+    "metaDescription": "Neumáticos Kenda trail adventure para BMW GS, Africa Twin, Ténéré 700. K784 Big Block. Distribuidor oficial Chile. Envío gratis.",
+    "eyebrow": "Categoría · Trail Adventure",
+    "lead": "Neumáticos de alto rendimiento para motos adventure que dominan tanto la carretera como el camino de ripio. Diseñados para la BMW GS, Africa Twin, Ténéré 700 y todas las grandes adventure que recorren Chile.",
+    "stats": [
+      { "value": "4", "label": "Modelos" },
+      { "value": "12+", "label": "Medidas" },
+      { "value": "650-1300", "label": "cc" },
+      { "value": "24h", "label": "ZOFRI" }
+    ],
+    "featuredModel": "K784 Big Block",
+    "usageTag": "Adventure 60/40",
+    "products": ["kenda-k784-big-block", "kenda-k761-dual-sport", "kenda-k787-equilibrium"],
+    "popularSizes": ["120/70 R17", "110/80 R19", "90/90-21", "150/70 R17", "170/60 R17", "150/70 R18", "130/80 R17", "90/90-21"],
+    "keywords": ["neumatico trail moto chile", "neumaticos big trail chile", "kenda adventure moto", "kenda k784 big block", "neumaticos bmw gs chile", "africa twin neumaticos", "tenere 700 neumaticos"],
+    "schemas": ["CollectionPage", "ItemList", "FAQPage", "BreadcrumbList"],
+    "relatedCategories": ["dual-sport", "enduro", "calle-carretera"],
+    "terrainCards": [
+      {
+        "terrain": "Carretera",
+        "icon": "road",
+        "percentage": 40,
+        "description": "Estabilidad y bajo ruido en asfalto",
+        "model": "K784 Big Block"
+      },
+      {
+        "terrain": "Ripio y Tierra",
+        "icon": "gravel",
+        "percentage": 40,
+        "description": "Bloques grandes para caminos de ripio",
+        "model": "K784 Big Block"
+      },
+      {
+        "terrain": "Trail Suave",
+        "icon": "trail",
+        "percentage": 15,
+        "description": "Senderos trail de dificultad baja/media",
+        "model": "K784 Big Block"
+      },
+      {
+        "terrain": "Off-Road",
+        "icon": "offroad",
+        "percentage": 5,
+        "description": "Terreno off-road ocasional",
+        "model": "K761 Dual Sport"
+      }
+    ],
+    "compatibleMotos": [
+      { "make": "BMW", "model": "R 1250 GS", "front": "120/70 R19", "rear": "170/60 R17", "cc": "900-1300" },
+      { "make": "BMW", "model": "F 850 GS", "front": "90/90-21", "rear": "150/70 R17", "cc": "650-800" },
+      { "make": "Honda", "model": "Africa Twin CRF1100", "front": "90/90-21", "rear": "150/70 R18", "cc": "900-1300" },
+      { "make": "Yamaha", "model": "Ténéré 700", "front": "90/90-21", "rear": "150/70 R17", "cc": "650-800" },
+      { "make": "KTM", "model": "890 Adventure", "front": "90/90-21", "rear": "150/70 R17", "cc": "650-800" },
+      { "make": "Triumph", "model": "Tiger 900", "front": "110/80 R19", "rear": "150/70 R17", "cc": "900-1300" }
+    ],
+    "faq": [
+      {
+        "question": "¿Cuál es el mejor neumático Kenda para trail adventure en Chile?",
+        "answer": "El Kenda K784 Big Block es el modelo más recomendado para trail adventure en Chile. Su diseño mixto 60/40 (carretera/off-road) lo hace ideal para motos como la BMW GS, Honda Africa Twin y Yamaha Ténéré 700 que recorren tanto asfalto como ripio."
+      },
+      {
+        "question": "¿El K784 sirve tanto para ruta como para off-road?",
+        "answer": "Sí, el K784 Big Block está diseñado para un uso mixto. Su banda central proporciona estabilidad en carretera, mientras sus bloques laterales ofrecen agarre en ripio, tierra y trail suave. No está recomendado para enduro técnico o motocross."
+      },
+      {
+        "question": "¿Cuánto tarda el envío desde ZOFRI Iquique?",
+        "answer": "El envío desde nuestra bodega ZOFRI Iquique tarda entre 24 y 72 horas hábiles según la región de destino. Santiago: 2-3 días. Sur de Chile: 3-4 días. Envío gratis en todos los pedidos."
+      },
+      {
+        "question": "¿Los neumáticos Kenda trail vienen en versión Tubeless (TL) y con cámara (TT)?",
+        "answer": "Sí, la mayoría de los modelos trail adventure Kenda están disponibles en ambas versiones. TL (Tubeless) para llantas de aleación, y TT (con cámara) para llantas de radios. Verifica la versión en la ficha de cada medida."
+      }
+    ]
+  },
+  {
+    "slug": "enduro",
+    "name": "Enduro",
+    "h1": "Neumáticos Enduro Kenda Chile",
+    "metaTitle": "Neumáticos Enduro Kenda Chile | K778 K779 | Distribuidor ZOFRI",
+    "metaDescription": "Neumáticos enduro Kenda K778 y K779 para competición y trail extremo en Chile. Hard terrain, soft terrain. Distribuidor oficial Iquique ZOFRI.",
+    "eyebrow": "Categoría · Enduro",
+    "lead": "Neumáticos de competición para enduro en Chile. K778 para terrenos duros y pedregosos, K779 para terrenos blandos e intermedios. Compatibles con KTM EXC, Husqvarna FE, Beta RR y GasGas EC.",
+    "stats": [
+      { "value": "2", "label": "Modelos" },
+      { "value": "8+", "label": "Medidas" },
+      { "value": "250-500", "label": "cc" },
+      { "value": "24h", "label": "ZOFRI" }
+    ],
+    "featuredModel": "K778",
+    "usageTag": "Enduro Hard 20/80",
+    "products": ["kenda-k778", "kenda-k779"],
+    "popularSizes": ["90/100-21", "80/100-21", "110/100-18", "100/90-19", "120/100-18", "140/80-18", "120/90-18", "90/90-21"],
+    "keywords": ["neumaticos enduro moto chile", "kenda enduro", "neumatico enduro hard chile", "kenda k778 chile", "enduro moto neumatico"],
+    "relatedCategories": ["cross-motocross", "trail-adventure"],
+    "faq": [
+      {
+        "question": "¿Cuál es la diferencia entre el Kenda K778 y K779?",
+        "answer": "El K778 está diseñado para terrenos duros y pedregosos (hard terrain), mientras el K779 es para terrenos blandos e intermedios (soft terrain). Para enduro en el norte árido de Chile, el K778; para el sur húmedo, el K779."
+      },
+      {
+        "question": "¿Los neumáticos Kenda enduro son aptos para competición?",
+        "answer": "Sí, tanto el K778 como el K779 están homologados para competición enduro. Son usados por pilotos en los principales campeonatos regionales de Chile."
+      }
+    ]
+  },
+  {
+    "slug": "cross-motocross",
+    "name": "Motocross / MX",
+    "h1": "Neumáticos Motocross Kenda Chile",
+    "metaTitle": "Neumáticos Motocross Kenda Chile | K785 Millville | K782 Sand Mad",
+    "metaDescription": "Neumáticos motocross Kenda para competición en Chile. K785 Millville soft terrain y K782 Sand Mad arena/barro. Distribuidor oficial ZOFRI.",
+    "eyebrow": "Categoría · Motocross MX",
+    "lead": "Neumáticos de motocross de alto rendimiento. K785 Millville para pistas de tierra y terreno blando, K782 Sand Mad para arena y barro extremo. Para Honda CRF, Kawasaki KX, Yamaha YZ y KTM SX.",
+    "stats": [
+      { "value": "2", "label": "Modelos" },
+      { "value": "6+", "label": "Medidas" },
+      { "value": "125-450", "label": "cc" },
+      { "value": "24h", "label": "ZOFRI" }
+    ],
+    "featuredModel": "K785 Millville",
+    "usageTag": "MX Competición",
+    "products": ["kenda-k785-millville", "kenda-k782-sand-mad"],
+    "keywords": ["neumatico motocross chile", "kenda motocross", "neumaticos mx chile", "kenda k785 millville", "moto cross neumatico"],
+    "relatedCategories": ["enduro", "trail-adventure"],
+    "faq": [
+      {
+        "question": "¿Los neumáticos Kenda K785 sirven para pistas de tierra?",
+        "answer": "Sí, el K785 Millville está específicamente diseñado para pistas de motocross en terreno blando e intermedio. Sus bloques direccionales ofrecen máxima tracción en aceleración y frenada."
+      }
+    ]
+  },
+  {
+    "slug": "dual-sport",
+    "name": "Dual Sport",
+    "h1": "Neumáticos Dual Sport Kenda Chile",
+    "metaTitle": "Neumáticos Dual Sport Kenda Chile | K761 | Calle + Trail",
+    "metaDescription": "Neumáticos Kenda dual sport para uso mixto ciudad y trail en Chile. K761 Dual Sport. Distribuidor oficial ZOFRI Iquique.",
+    "eyebrow": "Categoría · Dual Sport",
+    "lead": "Neumáticos para motos que combinan uso urbano y off-road. El K761 ofrece el equilibrio perfecto entre rendimiento en asfalto y agarre en tierra. Ideal para Honda CRF 300L, Kawasaki KLX y Suzuki DR.",
+    "featuredModel": "K761 Dual Sport",
+    "usageTag": "Dual 50/50",
+    "products": ["kenda-k761-dual-sport", "kenda-k784-big-block"],
+    "keywords": ["neumatico dual sport chile", "kenda k761", "neumaticos moto dual sport chile"],
+    "relatedCategories": ["trail-adventure", "calle-carretera"],
+    "faq": [
+      {
+        "question": "¿El Kenda K761 sirve para uso diario en ciudad?",
+        "answer": "Sí, el K761 está homologado para uso en vía pública y es perfectamente apto para el uso diario. Su banda central garantiza bajo ruido y estabilidad en asfalto."
+      }
+    ]
+  },
+  {
+    "slug": "calle-carretera",
+    "name": "Calle / Carretera",
+    "h1": "Neumáticos Moto Calle Carretera Kenda Chile",
+    "metaTitle": "Neumáticos Moto Calle Kenda Chile | K761 K787 | Sport Touring",
+    "metaDescription": "Neumáticos Kenda para moto calle y carretera en Chile. K787 Equilibrium sport touring. Distribuidor oficial ZOFRI Iquique.",
+    "eyebrow": "Categoría · Calle / Carretera",
+    "lead": "Neumáticos sport y touring para motos de calle. El K787 Equilibrium ofrece máximo grip y durabilidad en asfalto para naked, sport y touring que recorren Chile de norte a sur.",
+    "featuredModel": "K787 Equilibrium",
+    "usageTag": "Carretera 90/10",
+    "products": ["kenda-k787-equilibrium", "kenda-k761-dual-sport"],
+    "keywords": ["neumatico moto calle chile", "neumaticos carretera moto chile", "kenda k787"],
+    "relatedCategories": ["dual-sport", "scooter"],
+    "faq": [
+      {
+        "question": "¿El Kenda K787 es apto para autopistas y altas velocidades?",
+        "answer": "Sí, el K787 Equilibrium tiene índice de velocidad W (270 km/h), lo que lo hace apto para cualquier velocidad legal en Chile. Su compuesto sport touring está optimizado para durabilidad en autovía."
+      }
+    ]
+  },
+  {
+    "slug": "scooter",
+    "name": "Scooter",
+    "h1": "Neumáticos Scooter Kenda Chile",
+    "metaTitle": "Neumáticos Scooter Kenda Chile | Aro 10 12 13 | Envío Gratis",
+    "metaDescription": "Neumáticos Kenda para scooter en Chile. Aros 10, 12 y 13. Distribuidor oficial ZOFRI Iquique. Envío gratis a todo Chile.",
+    "eyebrow": "Categoría · Scooter",
+    "lead": "Neumáticos Kenda para scooter urbano. Bajo ruido, bajo consumo y larga duración. Compatibles con la mayoría de modelos de scooter 50cc a 300cc disponibles en Chile.",
+    "featuredModel": "Kenda Scooter",
+    "usageTag": "Urbano City",
+    "products": [],
+    "keywords": ["neumaticos scooter chile", "neumaticos para scooter kenda", "llanta scooter chile"],
+    "relatedCategories": ["calle-carretera", "custom-chopper"],
+    "faq": [
+      {
+        "question": "¿Kenda tiene neumáticos para scooter en Chile?",
+        "answer": "Sí, Kenda dispone de neumáticos para scooter en aros 10, 12 y 13, compatibles con los principales modelos disponibles en Chile. Consulta disponibilidad de medida específica contactándonos por WhatsApp."
+      }
+    ]
+  },
+  {
+    "slug": "supermoto-pista",
+    "name": "Supermoto / Pista",
+    "h1": "Neumáticos Supermoto Pista Kenda Chile",
+    "metaTitle": "Neumáticos Supermoto Pista Kenda Chile | Llantas Deportivas",
+    "metaDescription": "Neumáticos Kenda para supermoto y pista en Chile. Alto rendimiento deportivo. Distribuidor oficial ZOFRI Iquique.",
+    "eyebrow": "Categoría · Supermoto / Pista",
+    "lead": "Neumáticos de alto rendimiento para supermoto y uso en pista. Compuestos deportivos de máximo grip para llevar tu moto al límite en el circuito.",
+    "featuredModel": "Kenda Sport",
+    "usageTag": "Sport 100/0",
+    "products": [],
+    "keywords": ["neumaticos supermoto chile", "llantas deportivas moto", "neumaticos pista moto chile"],
+    "relatedCategories": ["calle-carretera", "cross-motocross"],
+    "faq": [
+      {
+        "question": "¿Kenda tiene neumáticos para supermoto en Chile?",
+        "answer": "Sí, disponemos de neumáticos sport y supermoto Kenda para pista. Consulta disponibilidad específica de medida contactándonos por WhatsApp o formulario de cotización."
+      }
+    ]
+  },
+  {
+    "slug": "custom-chopper",
+    "name": "Custom / Chopper",
+    "h1": "Neumáticos Custom Chopper Kenda Chile",
+    "metaTitle": "Neumáticos Moto Custom Chopper Kenda Chile | Llantas Anchas",
+    "metaDescription": "Neumáticos Kenda para motos custom y chopper en Chile. Llantas anchas. Distribuidor oficial ZOFRI Iquique.",
+    "eyebrow": "Categoría · Custom / Chopper",
+    "lead": "Neumáticos para motos custom, chopper y cruiser. Diseños clásicos con la calidad y garantía Kenda. Compatibles con Harley-Davidson, Honda Shadow, Yamaha Virago y más.",
+    "featuredModel": "K761 Custom",
+    "usageTag": "Custom · Wide",
+    "products": ["kenda-k761-dual-sport"],
+    "keywords": ["neumaticos chopper chile", "llantas moto custom chile", "neumaticos custom harley"],
+    "relatedCategories": ["calle-carretera", "scooter"],
+    "faq": [
+      {
+        "question": "¿Kenda tiene neumáticos para Harley-Davidson y motos custom en Chile?",
+        "answer": "Sí, disponemos de neumáticos Kenda en medidas específicas para motos custom y chopper. Consulta la medida de tu moto y verifica disponibilidad contactándonos directamente."
+      }
+    ]
+  }
+]

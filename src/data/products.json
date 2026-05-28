@@ -1,0 +1,472 @@
+[
+  {
+    "slug": "kenda-k784-big-block",
+    "ref": "K784",
+    "name": "Kenda K784 Big Block",
+    "tagline": "Trail · Adventure · Dual Sport",
+    "category": "trail-adventure",
+    "uso": ["trail", "adventure", "dual-sport"],
+    "description": "El Kenda K784 Big Block es el neumático trail adventure más versátil del catálogo Kenda. Diseñado para motos adventure de mediana y gran cilindrada que afrontan tanto rutas pavimentadas como caminos de ripio y senderos off-road en Chile. Su diseño de bloques grandes ofrece una tracción superior en terrenos mixtos, mientras que su compuesto de doble capa garantiza durabilidad excepcional en las condiciones exigentes del norte de Chile y la Patagonia.",
+    "features": [
+      "Compuesto de goma dual de alta resistencia",
+      "Diseño de bloques grandes para tracción en mixto",
+      "Disponible TL (Tubeless) y TT (con cámara)",
+      "Certificado E4 para uso en vía pública",
+      "Compatible con BMW GS, Africa Twin, Ténéré 700",
+      "Fabricado en Taiwán bajo estándares internacionales"
+    ],
+    "sizes": [
+      {
+        "medida": "120/70 R17",
+        "position": "delantera",
+        "type": ["TL", "TT"],
+        "speedIndex": "H",
+        "loadIndex": "62",
+        "priceCLP": 89990,
+        "originalPriceCLP": 109990,
+        "stock": "in_stock",
+        "seoH2": "Neumático Kenda K784 Big Block 120/70 R17 Chile",
+        "seoText": "La medida 120/70 R17 es la medida delantera estándar para motos adventure de mediana y gran cilindrada como la BMW F 850 GS, Honda NC750X y Yamaha Ténéré 700. Con el Kenda K784 en 120/70 R17, obtienes un neumático tubeless de alto rendimiento fabricado en Taiwán e importado directamente a Chile a través de la Zona Franca de Iquique por Carioca Chile Ltda.",
+        "compatMotos": ["BMW F 850 GS", "Honda NC750X", "Yamaha Ténéré 700", "KTM 390 Adventure"]
+      },
+      {
+        "medida": "150/70 R17",
+        "position": "trasera",
+        "type": ["TL", "TT"],
+        "speedIndex": "H",
+        "loadIndex": "69",
+        "priceCLP": 99990,
+        "stock": "in_stock",
+        "seoH2": "Neumático Kenda K784 Big Block 150/70 R17 Chile",
+        "seoText": "La medida 150/70 R17 es la medida trasera más popular para motos trail adventure de mediana cilindrada en Chile. Compatible con BMW F 850 GS, KTM 890 Adventure y Yamaha Ténéré 700. Importado directamente desde ZOFRI Iquique por Carioca Chile Ltda.",
+        "compatMotos": ["BMW F 850 GS", "KTM 890 Adventure", "Yamaha Ténéré 700", "Honda CB500X"]
+      },
+      {
+        "medida": "170/60 R17",
+        "position": "trasera",
+        "type": ["TL", "TT"],
+        "speedIndex": "T",
+        "loadIndex": "72",
+        "priceCLP": 109990,
+        "stock": "in_stock",
+        "seoH2": "Neumático Kenda K784 Big Block 170/60 R17 Chile",
+        "seoText": "La medida 170/60 R17 es la medida trasera para motos adventure de gran cilindrada como la BMW R 1250 GS Adventure y la Honda Africa Twin. Proporciona mayor superficie de contacto para estabilidad en carretera.",
+        "compatMotos": ["BMW R 1250 GS Adventure", "Honda Africa Twin CRF1100", "Triumph Tiger 1200"]
+      },
+      {
+        "medida": "110/80 R19",
+        "position": "delantera",
+        "type": ["TT"],
+        "speedIndex": "H",
+        "loadIndex": "59",
+        "priceCLP": 94990,
+        "stock": "in_stock",
+        "seoH2": "Neumático Kenda K784 Big Block 110/80 R19 Chile",
+        "seoText": "La medida 110/80 R19 es la medida delantera para motos adventure de gran cilindrada con aro 19, como la Triumph Tiger 900 y la KTM 890 Adventure. Ofrece excelente maniobrabilidad en terrenos mixtos.",
+        "compatMotos": ["Triumph Tiger 900", "KTM 890 Adventure", "Yamaha Ténéré 900"]
+      },
+      {
+        "medida": "150/70 R18",
+        "position": "trasera",
+        "type": ["TT"],
+        "speedIndex": "T",
+        "loadIndex": "70",
+        "priceCLP": 104990,
+        "stock": "low_stock",
+        "seoH2": "Neumático Kenda K784 Big Block 150/70 R18 Chile",
+        "seoText": "La medida 150/70 R18 se usa en la trasera de motos adventure con aro 18, como la Honda Africa Twin CRF1100. Compatible con llantas de radios, disponible en versión TT (con cámara).",
+        "compatMotos": ["Honda Africa Twin CRF1100", "Honda XL750 Transalp"]
+      },
+      {
+        "medida": "90/90-21",
+        "position": "delantera",
+        "type": ["TT"],
+        "speedIndex": "S",
+        "loadIndex": "54",
+        "priceCLP": 79990,
+        "stock": "in_stock",
+        "seoH2": "Neumático Kenda K784 Big Block 90/90-21 Chile",
+        "seoText": "La medida 90/90-21 es la medida delantera clásica para motos adventure de gran cilindrada con aro 21, como la BMW R 1250 GS, Honda Africa Twin CRF1100 y Yamaha Super Ténéré. Ideal para terrenos mixtos y caminos de ripio en Chile.",
+        "compatMotos": ["BMW R 1250 GS", "Honda Africa Twin CRF1100", "Yamaha Super Ténéré XT1200Z", "KTM 1290 Super Adventure"]
+      }
+    ],
+    "usage": {
+      "carretera": 40,
+      "trail": 45,
+      "offroad": 15
+    },
+    "motos": [
+      "BMW R 1250 GS", "BMW F 850 GS", "Honda Africa Twin CRF1100",
+      "Yamaha Ténéré 700", "KTM 890 Adventure", "Triumph Tiger 900"
+    ],
+    "schema": {
+      "brand": "Kenda",
+      "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
+      "countryOfOrigin": "TW"
+    },
+    "seo": {
+      "title": "Kenda K784 Big Block Chile | Trail Adventure | Kenda Moto",
+      "description": "Neumático Kenda K784 Big Block para motos trail y adventure en Chile. Distribuidor oficial Iquique ZOFRI. Envío gratis a todo Chile."
+    },
+    "isFeatured": true
+  },
+  {
+    "slug": "kenda-k778",
+    "ref": "K778",
+    "name": "Kenda K778",
+    "tagline": "Enduro Hard Terrain",
+    "category": "enduro",
+    "uso": ["enduro"],
+    "description": "El Kenda K778 está diseñado para terrenos duros y pedregosos. Es el neumático de enduro por excelencia para competidores y pilotos exigentes que enfrentan los terrenos más difíciles del norte y centro de Chile. Su compuesto duro maximiza la durabilidad en suelo rocoso y árido.",
+    "features": [
+      "Compuesto duro para terrenos pedregosos y secos",
+      "Carcasa reforzada de alta resistencia a pinchazos",
+      "Patrón de bloques profundos para tracción extrema",
+      "Disponible en versión TT (con cámara)",
+      "Apto para uso enduro competición"
+    ],
+    "sizes": [
+      {
+        "medida": "90/100-21",
+        "position": "delantera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "57",
+        "priceCLP": 74990,
+        "stock": "in_stock",
+        "compatMotos": ["KTM EXC", "Husqvarna FE", "Beta RR", "GasGas EC"]
+      },
+      {
+        "medida": "110/100-18",
+        "position": "trasera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "64",
+        "priceCLP": 84990,
+        "stock": "in_stock",
+        "compatMotos": ["KTM EXC 450", "Husqvarna FE 450", "Beta RR 430"]
+      },
+      {
+        "medida": "140/80-18",
+        "position": "trasera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "70",
+        "priceCLP": 89990,
+        "stock": "in_stock",
+        "compatMotos": ["KTM EXC 500", "Husqvarna FE 501"]
+      }
+    ],
+    "usage": { "enduro": 80, "trail": 15, "offroad": 5 },
+    "motos": ["KTM EXC", "Husqvarna FE", "Beta RR", "GasGas EC"],
+    "schema": {
+      "brand": "Kenda",
+      "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
+      "countryOfOrigin": "TW"
+    },
+    "seo": {
+      "title": "Kenda K778 Chile | Enduro Hard Terrain | Kenda Moto",
+      "description": "Neumático Kenda K778 para enduro en terrenos duros. Distribuidor oficial Chile. Envío gratis ZOFRI Iquique."
+    },
+    "isFeatured": true
+  },
+  {
+    "slug": "kenda-k779",
+    "ref": "K779",
+    "name": "Kenda K779",
+    "tagline": "Enduro Soft/Intermediate",
+    "category": "enduro",
+    "uso": ["enduro"],
+    "description": "El Kenda K779 es el complemento del K778 para terrenos blandos e intermedios. Sus bloques más abiertos y agresivos ofrecen tracción superior en barro, tierra suelta y arena. Ideal para el enduro del sur de Chile, la Araucanía y zonas húmedas.",
+    "features": [
+      "Bloques anchos y abiertos para terrenos blandos",
+      "Excelente autolimpieza en barro y arena",
+      "Carcasa flexible de alta resistencia",
+      "Versión TT con cámara para llantas de radios"
+    ],
+    "sizes": [
+      {
+        "medida": "80/100-21",
+        "position": "delantera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "51",
+        "priceCLP": 69990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "100/90-19",
+        "position": "trasera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "57",
+        "priceCLP": 79990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "120/90-18",
+        "position": "trasera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "65",
+        "priceCLP": 84990,
+        "stock": "in_stock"
+      }
+    ],
+    "usage": { "enduro": 75, "offroad": 20, "trail": 5 },
+    "motos": ["KTM EXC", "Husqvarna FE", "Beta RR", "GasGas EC", "Honda CRF"],
+    "schema": {
+      "brand": "Kenda",
+      "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
+      "countryOfOrigin": "TW"
+    },
+    "seo": {
+      "title": "Kenda K779 Chile | Enduro Soft Terrain | Kenda Moto",
+      "description": "Neumático Kenda K779 enduro terreno blando. Ideal para barro y tierra. Distribuidor oficial Chile ZOFRI."
+    }
+  },
+  {
+    "slug": "kenda-k785-millville",
+    "ref": "K785",
+    "name": "Kenda K785 Millville",
+    "tagline": "Motocross · Soft Terrain",
+    "category": "cross-motocross",
+    "uso": ["motocross"],
+    "description": "El Kenda K785 Millville es un neumático de motocross de alto rendimiento para terrenos blandos e intermedios. Su patrón agresivo con bloques direccionales ofrece tracción y aceleración excepcionales. Usado por pilotos competitivos en circuitos de tierra y arena de todo Chile.",
+    "features": [
+      "Patrón Millville optimizado para terrenos blandos",
+      "Bloques centrales de gran altura para propulsión",
+      "Hombros con bloques anchos para esquinas",
+      "Compuesto suave de alta tracción",
+      "Diseño TT (con cámara) estándar motocross"
+    ],
+    "sizes": [
+      {
+        "medida": "80/100-21",
+        "position": "delantera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "51",
+        "priceCLP": 64990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "100/90-19",
+        "position": "trasera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "57",
+        "priceCLP": 74990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "110/100-18",
+        "position": "trasera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "64",
+        "priceCLP": 79990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "120/100-18",
+        "position": "trasera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "68",
+        "priceCLP": 84990,
+        "stock": "low_stock"
+      }
+    ],
+    "usage": { "motocross": 90, "enduro": 10 },
+    "motos": ["Honda CRF 450R", "Kawasaki KX 450", "Yamaha YZ 450F", "Suzuki RM-Z 450", "KTM SX 450"],
+    "schema": {
+      "brand": "Kenda",
+      "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
+      "countryOfOrigin": "TW"
+    },
+    "seo": {
+      "title": "Kenda K785 Millville Chile | Motocross Soft Terrain | Kenda Moto",
+      "description": "Neumático Kenda K785 Millville para motocross terreno blando en Chile. Distribuidor oficial ZOFRI Iquique."
+    },
+    "isFeatured": true
+  },
+  {
+    "slug": "kenda-k782-sand-mad",
+    "ref": "K782",
+    "name": "Kenda K782 Sand Mad",
+    "tagline": "Motocross · Arena · Barro",
+    "category": "cross-motocross",
+    "uso": ["motocross"],
+    "description": "El Kenda K782 Sand Mad es el neumático especializado para arena y barro extremo. Sus paletas largas y espaciadas muerden profundamente en terrenos sueltos, ofreciendo tracción insuperable en dunas, playas y pistas de barro. Perfecto para las condiciones del norte desértico de Chile.",
+    "features": [
+      "Paletas largas y espaciadas para arena profunda",
+      "Excelente autolimpieza en barro",
+      "Banda de rodadura direccional",
+      "Compatible con superficies de arena, barro y tierra suelta"
+    ],
+    "sizes": [
+      {
+        "medida": "90/100-21",
+        "position": "delantera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "57",
+        "priceCLP": 67990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "120/100-18",
+        "position": "trasera",
+        "type": ["TT"],
+        "speedIndex": "M",
+        "loadIndex": "68",
+        "priceCLP": 77990,
+        "stock": "in_stock"
+      }
+    ],
+    "usage": { "motocross": 85, "offroad": 15 },
+    "motos": ["Honda CRF", "Kawasaki KX", "Yamaha YZ", "Suzuki RM-Z", "KTM SX"],
+    "schema": {
+      "brand": "Kenda",
+      "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
+      "countryOfOrigin": "TW"
+    },
+    "seo": {
+      "title": "Kenda K782 Sand Mad Chile | Motocross Arena Barro | Kenda Moto",
+      "description": "Neumático Kenda K782 Sand Mad para arena y barro. Distribuidor oficial Chile ZOFRI Iquique."
+    }
+  },
+  {
+    "slug": "kenda-k761-dual-sport",
+    "ref": "K761",
+    "name": "Kenda K761 Dual Sport",
+    "tagline": "Dual Sport · Calle · Trail suave",
+    "category": "dual-sport",
+    "uso": ["dual-sport", "calle", "trail"],
+    "description": "El Kenda K761 es el neumático dual sport ideal para quienes combinan trayectos en ciudad con excursiones de fin de semana por caminos de ripio y trail suave. Su banda central garantiza estabilidad y bajo ruido en asfalto, mientras los bloques del hombro aportan agarre en tierra.",
+    "features": [
+      "Diseño mixto 50/50 calle-trail",
+      "Centro de banda continua para menor ruido en asfalto",
+      "Bloques en hombros para grip off-road",
+      "Disponible TL (Tubeless) para llantas de aleación",
+      "Aprobado para uso en vía pública"
+    ],
+    "sizes": [
+      {
+        "medida": "90/90-21",
+        "position": "delantera",
+        "type": ["TL", "TT"],
+        "speedIndex": "S",
+        "loadIndex": "54",
+        "priceCLP": 72990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "120/70 R17",
+        "position": "delantera",
+        "type": ["TL"],
+        "speedIndex": "S",
+        "loadIndex": "58",
+        "priceCLP": 79990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "130/80 R17",
+        "position": "trasera",
+        "type": ["TL", "TT"],
+        "speedIndex": "S",
+        "loadIndex": "65",
+        "priceCLP": 89990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "150/70 R17",
+        "position": "trasera",
+        "type": ["TL"],
+        "speedIndex": "S",
+        "loadIndex": "69",
+        "priceCLP": 94990,
+        "stock": "in_stock"
+      }
+    ],
+    "usage": { "carretera": 50, "trail": 40, "offroad": 10 },
+    "motos": ["Honda CRF 300L", "Kawasaki KLX 300", "Suzuki DR 650", "Royal Enfield Himalayan"],
+    "schema": {
+      "brand": "Kenda",
+      "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
+      "countryOfOrigin": "TW"
+    },
+    "seo": {
+      "title": "Kenda K761 Dual Sport Chile | Calle y Trail | Kenda Moto",
+      "description": "Neumático Kenda K761 dual sport para calle y trail en Chile. Distribuidor oficial ZOFRI Iquique. Envío gratis."
+    },
+    "isFeatured": true
+  },
+  {
+    "slug": "kenda-k787-equilibrium",
+    "ref": "K787",
+    "name": "Kenda K787 Equilibrium",
+    "tagline": "Carretera · Sport Touring",
+    "category": "calle-carretera",
+    "uso": ["carretera", "calle"],
+    "description": "El Kenda K787 Equilibrium es el neumático de carretera y sport touring de Kenda. Diseñado para maximizar el rendimiento en asfalto, ofrece un equilibrio perfecto entre grip, estabilidad y durabilidad a alta velocidad. Ideal para motos naked, sport y touring que recorren las rutas de Chile.",
+    "features": [
+      "Compuesto sport touring de alta durabilidad",
+      "Banda central continua para estabilidad en autopista",
+      "Perfil de alta curvatura para máximo agarre en curva",
+      "Disponible TL (Tubeless) para llantas de aleación",
+      "Bajo nivel de ruido de rodadura"
+    ],
+    "sizes": [
+      {
+        "medida": "120/70 R17",
+        "position": "delantera",
+        "type": ["TL"],
+        "speedIndex": "W",
+        "loadIndex": "58",
+        "priceCLP": 94990,
+        "originalPriceCLP": 114990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "160/60 R17",
+        "position": "trasera",
+        "type": ["TL"],
+        "speedIndex": "W",
+        "loadIndex": "69",
+        "priceCLP": 104990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "180/55 R17",
+        "position": "trasera",
+        "type": ["TL"],
+        "speedIndex": "W",
+        "loadIndex": "73",
+        "priceCLP": 114990,
+        "stock": "in_stock"
+      },
+      {
+        "medida": "190/50 R17",
+        "position": "trasera",
+        "type": ["TL"],
+        "speedIndex": "W",
+        "loadIndex": "73",
+        "priceCLP": 119990,
+        "stock": "low_stock"
+      }
+    ],
+    "usage": { "carretera": 90, "trail": 10 },
+    "motos": ["Honda CB650R", "Kawasaki Z900", "Yamaha MT-07", "Suzuki GSX-S 750", "BMW F 900 R"],
+    "schema": {
+      "brand": "Kenda",
+      "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
+      "countryOfOrigin": "TW"
+    },
+    "seo": {
+      "title": "Kenda K787 Equilibrium Chile | Carretera Sport Touring | Kenda Moto",
+      "description": "Neumático Kenda K787 Equilibrium para carretera y sport touring en Chile. Distribuidor oficial ZOFRI Iquique."
+    }
+  }
+]
