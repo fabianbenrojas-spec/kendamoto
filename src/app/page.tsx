@@ -503,6 +503,33 @@ export default async function HomePage() {
 
       <CoberturaChile />
 
+      {/* QUIZ CTA */}
+      <section style={{ padding: '48px 0', background: 'var(--ink)' }}>
+        <div className="wrap" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '24px' }}>
+          <div>
+            <div className="eyebrow mb-2" style={{ color: 'var(--kenda)' }}>Buscador inteligente</div>
+            <h2
+              style={{
+                fontFamily: 'var(--font-display)',
+                fontWeight: 800,
+                fontSize: 'clamp(22px, 4vw, 36px)',
+                textTransform: 'uppercase',
+                color: 'white',
+                lineHeight: 1,
+              }}
+            >
+              ¿No sabes qué medida necesitas?
+            </h2>
+            <p style={{ fontFamily: 'var(--font-body)', fontSize: '14px', color: 'var(--dim)', marginTop: '8px' }}>
+              4 preguntas · Resultado exacto en menos de 2 minutos
+            </p>
+          </div>
+          <Link href="/buscar-mi-neumatico/" className="btn-primary" style={{ fontSize: '14px', padding: '12px 28px', whiteSpace: 'nowrap' }}>
+            Encontrar mi neumático →
+          </Link>
+        </div>
+      </section>
+
       {/* B2B BANNER */}
       <section style={{ background: 'var(--ink)', padding: '48px 0' }}>
         <div className="wrap">

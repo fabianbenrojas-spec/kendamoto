@@ -146,10 +146,10 @@ export function Nav() {
                     transform: 'translateX(-50%)',
                     background: 'white',
                     border: '1px solid var(--line)',
-                    width: '720px',
+                    width: '860px',
                     padding: '24px',
                     display: 'grid',
-                    gridTemplateColumns: '1fr 1fr 1fr',
+                    gridTemplateColumns: '1fr 1fr 1fr 1fr',
                     gap: '24px',
                     boxShadow: '0 8px 32px rgba(0,0,0,0.1)',
                     zIndex: 200,
@@ -220,6 +220,40 @@ export function Nav() {
                         {item.label}
                       </Link>
                     ))}
+                  </div>
+                  <div>
+                    <div className="eyebrow mb-3" style={{ fontSize: '10px' }}>Herramientas</div>
+                    <Link
+                      href="/buscar-mi-neumatico/"
+                      onClick={() => setMegaOpen(false)}
+                      style={{
+                        display: 'block',
+                        fontFamily: 'var(--font-body)',
+                        fontSize: '13px',
+                        color: 'var(--kenda)',
+                        textDecoration: 'none',
+                        padding: '4px 0',
+                        fontWeight: 600,
+                      }}
+                    >
+                      ¿Qué neumático necesito? →
+                    </Link>
+                    <Link
+                      href="/neumaticos-kenda-moto/medida/"
+                      onClick={() => setMegaOpen(false)}
+                      style={{
+                        display: 'block',
+                        fontFamily: 'var(--font-body)',
+                        fontSize: '13px',
+                        color: 'var(--text)',
+                        textDecoration: 'none',
+                        padding: '4px 0',
+                      }}
+                      onMouseEnter={e => (e.currentTarget.style.color = 'var(--kenda)')}
+                      onMouseLeave={e => (e.currentTarget.style.color = 'var(--text)')}
+                    >
+                      Ver todas las medidas
+                    </Link>
                   </div>
                 </div>
               )}

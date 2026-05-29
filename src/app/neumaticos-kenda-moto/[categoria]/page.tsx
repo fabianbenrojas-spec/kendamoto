@@ -644,6 +644,21 @@ export default async function CategoryPage({ params }: Props) {
         <CategorySeoBlock content={CATEGORY_SEO_CONTENT[categoria]} />
       )}
 
+      {/* Quiz link */}
+      <div style={{ background: 'var(--ink-2)', padding: '20px 0', borderTop: '1px solid var(--line-dark)' }}>
+        <div className="wrap" style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
+          <span style={{ fontFamily: 'var(--font-body)', fontSize: '13px', color: 'var(--dim)' }}>
+            ¿No estás seguro de la medida exacta para tu moto?
+          </span>
+          <Link
+            href="/buscar-mi-neumatico/"
+            style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '12px', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--kenda)', textDecoration: 'none', border: '1px solid rgba(227,6,19,0.4)', padding: '6px 14px' }}
+          >
+            Usar el buscador →
+          </Link>
+        </div>
+      </div>
+
       {/* B2B Banner */}
       <section style={{ background: 'var(--ink)', padding: '48px 0' }}>
         <div className="wrap">
