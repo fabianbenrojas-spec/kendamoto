@@ -4,14 +4,20 @@ import { absoluteUrl } from '@/lib/site'
 import { buildBreadcrumb } from '@/lib/schema'
 import { FAQAccordion } from '@/components/ui/FAQAccordion'
 import { CoberturaChile } from '@/components/sections/CoberturaChile'
+import { HubSeoContent } from '@/components/sections/HubSeoContent'
 import { B2BBanner } from '@/components/product/B2BBanner'
 import categories from '@/data/categories.json'
 
 export const metadata: Metadata = {
-  title: 'Neumáticos Kenda Moto Chile — Todas las Categorías | Kenda Moto',
+  title: 'Neumáticos Kenda para Moto Chile | Catálogo Completo | ZOFRI Iquique',
   description:
-    'Catálogo completo de neumáticos Kenda para moto en Chile. Enduro, trail adventure, motocross, dual sport, calle, scooter. Distribuidor oficial ZOFRI Iquique.',
+    'Catálogo completo de neumáticos Kenda para moto en Chile. Enduro, trail adventure, motocross, dual sport, calle y scooter. +200 referencias. Distribuidor oficial ZOFRI Iquique.',
   alternates: { canonical: absoluteUrl('/neumaticos-kenda-moto/') },
+  openGraph: {
+    title: 'Neumáticos Kenda Moto Chile — Catálogo Completo',
+    description: '+200 referencias. Enduro, trail, motocross, calle. Stock directo ZOFRI Iquique.',
+    url: absoluteUrl('/neumaticos-kenda-moto/'),
+  },
 }
 
 export default function NeumaticosCatalogPage() {
@@ -185,6 +191,7 @@ export default function NeumaticosCatalogPage() {
         </div>
       </section>
 
+      <HubSeoContent />
       <CoberturaChile />
       <B2BBanner />
 

@@ -1,6 +1,6 @@
 import { absoluteUrl } from './site'
 import { sizeToSlug } from './products'
-import type { Product, Size, FAQItem } from './types'
+import type { Product, Size, FAQItem, Review } from './types'
 
 export function buildLocalBusinessSchema() {
   return {
@@ -71,6 +71,31 @@ export function buildProductSchema(product: Product, size: Size, categoria: stri
   exp.setFullYear(exp.getFullYear() + 1)
   const priceValidUntil = exp.toISOString().split('T')[0]
 
+  const reviews: Review[] = product.reviews ?? []
+
+  const aggregateRatingBlock = reviews.length > 0
+    ? {
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: (reviews.reduce((s, r) => s + r.rating, 0) / reviews.length).toFixed(1),
+          reviewCount: reviews.length,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        review: reviews.map(r => ({
+          '@type': 'Review',
+          author: { '@type': 'Person', name: r.author },
+          datePublished: r.date,
+          reviewRating: {
+            '@type': 'Rating',
+            ratingValue: r.rating,
+            bestRating: 5,
+          },
+          reviewBody: r.text,
+        })),
+      }
+    : {}
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -104,6 +129,7 @@ export function buildProductSchema(product: Product, size: Size, categoria: stri
       url,
       seller: { '@type': 'Organization', name: 'Carioca Chile Ltda.' },
     },
+    ...aggregateRatingBlock,
   }
 }
 

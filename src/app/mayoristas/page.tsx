@@ -8,9 +8,9 @@ import { FAQAccordion } from '@/components/ui/FAQAccordion'
 import { ProcesoB2B } from '@/components/sections/ProcesoB2B'
 
 export const metadata: Metadata = {
-  title: 'Mayorista Neumáticos Moto Chile — Distribuidor Kenda ZOFRI Iquique | B2B',
+  title: 'Mayorista Neumáticos Moto Chile | Distribuidor Kenda ZOFRI | Precios B2B',
   description:
-    'Precios mayoristas Kenda para talleres, tiendas y distribuidores en Chile. Cuenta B2B con factura electrónica. Importación directa ZOFRI Iquique.',
+    'Portal mayorista Kenda para talleres, tiendas y distribuidores. Precios mayoristas directos desde ZOFRI Iquique. Factura electrónica. Despacho 24-72h a todo Chile.',
   alternates: { canonical: absoluteUrl('/mayoristas/') },
 }
 

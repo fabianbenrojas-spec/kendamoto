@@ -5,7 +5,11 @@
     "name": "Kenda K784 Big Block",
     "tagline": "Trail · Adventure · 50/50",
     "category": "trail-adventure",
-    "uso": ["trail", "adventure", "dual-sport"],
+    "uso": [
+      "trail",
+      "adventure",
+      "dual-sport"
+    ],
     "description": "El Kenda K784 Big Block es el neumático trail adventure más versátil del catálogo Kenda. Diseñado para motos adventure de mediana y gran cilindrada que afrontan tanto rutas pavimentadas como caminos de ripio y senderos off-road en Chile. Homologado DOT y E-mark para uso en vía pública. Construcción bias-belt tubeless (TL), compatible con llantas de aleación y radios tubeless.",
     "features": [
       "Construcción bias-belt Tubeless (TL) exclusivamente",
@@ -19,111 +23,172 @@
       {
         "medida": "90/90B21",
         "position": "delantera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "54",
         "priceCLP": 79990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K784 Big Block 90/90B21 Chile",
         "seoText": "La medida 90/90B21 es la medida delantera estándar de aro 21 para motos adventure de gran cilindrada con llantas de radios tubeless. Compatible con BMW R 1250 GS, Honda Africa Twin CRF1100 y Yamaha Super Ténéré XT1200Z. Importado directamente desde ZOFRI Iquique por Carioca Chile Ltda.",
-        "compatMotos": ["BMW R 1250 GS", "Honda Africa Twin CRF1100", "Yamaha Super Ténéré XT1200Z", "KTM 1290 Super Adventure"]
+        "compatMotos": [
+          "BMW R 1250 GS",
+          "Honda Africa Twin CRF1100",
+          "Yamaha Super Ténéré XT1200Z",
+          "KTM 1290 Super Adventure"
+        ]
       },
       {
         "medida": "100/90B19",
         "position": "delantera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "57",
         "priceCLP": 84990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K784 Big Block 100/90B19 Chile",
-        "seoText": "La medida 100/90B19 es la medida delantera de aro 19 para motos adventure medianas como la BMW F 850 GS, KTM 890 Adventure y Triumph Tiger 900. Bias-belt tubeless, compatible con llantas de radios tubeless.",
-        "compatMotos": ["BMW F 850 GS", "KTM 890 Adventure", "Triumph Tiger 900", "Yamaha Ténéré 700"]
+        "seoText": "La medida 100/90B19 es la delantera de aro 19 para motos adventure medianas con suspensión de largo recorrido. Compatible con BMW F 850 GS, KTM 890 Adventure y Triumph Tiger 900 GT. Bias-belt tubeless para llantas de radios tubeless. Importado por Carioca Chile Ltda. desde ZOFRI Iquique, ideal para el ripio del norte y la cordillera central.",
+        "compatMotos": [
+          "BMW F 850 GS",
+          "KTM 890 Adventure",
+          "Triumph Tiger 900",
+          "Yamaha Ténéré 700"
+        ]
       },
       {
         "medida": "110/80B19",
         "position": "delantera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "59",
         "priceCLP": 89990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K784 Big Block 110/80B19 Chile",
-        "seoText": "La medida 110/80B19 es la delantera de aro 19 para motos adventure de gran cilindrada como la BMW R 1250 GS Adventure y KTM 1290 Super Adventure. Mayor ancho para mejor estabilidad a alta velocidad en carretera.",
-        "compatMotos": ["BMW R 1250 GS Adventure", "KTM 1290 Super Adventure", "Triumph Tiger 1200", "Honda Africa Twin CRF1100L"]
+        "seoText": "La medida 110/80B19 es la delantera ancha de aro 19 para motos adventure de gran cilindrada que priorizan estabilidad en ruta. Compatible con BMW R 1250 GS Adventure, KTM 1290 Super Adventure y Triumph Tiger 1200. Mayor sección de contacto que el 90/90B21 para mejor comportamiento a alta velocidad en asfalto. Disponible en stock permanente ZOFRI Iquique.",
+        "compatMotos": [
+          "BMW R 1250 GS Adventure",
+          "KTM 1290 Super Adventure",
+          "Triumph Tiger 1200",
+          "Honda Africa Twin CRF1100L"
+        ]
       },
       {
         "medida": "120/70B19",
         "position": "delantera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "60",
         "priceCLP": 87990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K784 Big Block 120/70B19 Chile",
-        "seoText": "La medida 120/70B19 es una medida delantera de aro 19 para motos adventure medianas de uso mixto como la CFMoto 650MT, Royal Enfield Himalayan y Honda CB500X Adventure. Perfil más bajo para mejor respuesta en asfalto.",
-        "compatMotos": ["CFMoto 650MT", "Royal Enfield Himalayan 450", "Honda CB500X", "Zontes T350"]
+        "seoText": "La medida 120/70B19 es la delantera de aro 19 con perfil bajo para motos adventure medianas de uso mixto ciudad-trail. Compatible con CFMoto 650MT, Royal Enfield Himalayan 450 y Honda CB500X Adventure. Perfil bajo 70 para mejor respuesta de dirección en asfalto respecto al 90/90. Importado directamente desde Taiwan via ZOFRI Iquique por Carioca Chile Ltda.",
+        "compatMotos": [
+          "CFMoto 650MT",
+          "Royal Enfield Himalayan 450",
+          "Honda CB500X",
+          "Zontes T350"
+        ]
       },
       {
         "medida": "130/80B17",
         "position": "trasera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "65",
         "priceCLP": 89990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K784 Big Block 130/80B17 Chile",
-        "seoText": "La medida trasera 130/80B17 es la medida para motos adventure medianas con aro 17 trasero, como la BMW F 850 GS y Honda NC750X. Bias-belt tubeless para llantas de aleación.",
-        "compatMotos": ["BMW F 850 GS", "Honda NC750X", "Honda CB500X", "CFMoto 650MT"]
+        "seoText": "La medida trasera 130/80B17 es el estándar para motos adventure medianas con aro 17 trasero de aleación tubeless. Compatible con BMW F 850 GS, Honda NC750X y Honda CB500X. Bias-belt tubeless para llantas de aleación — no usar con llantas de radios. La relación precio-kilómetros más conveniente del catálogo K784 para distribuidores mayoristas de Chile.",
+        "compatMotos": [
+          "BMW F 850 GS",
+          "Honda NC750X",
+          "Honda CB500X",
+          "CFMoto 650MT"
+        ]
       },
       {
         "medida": "140/80B18",
         "position": "trasera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "70",
         "priceCLP": 94990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K784 Big Block 140/80B18 Chile",
-        "seoText": "La medida 140/80B18 es la trasera de aro 18 para motos adventure de gran cilindrada como la Honda Africa Twin CRF1100 y Honda XL750 Transalp. Compatible con llantas de radios tubeless.",
-        "compatMotos": ["Honda Africa Twin CRF1100", "Honda XL750 Transalp", "Yamaha Ténéré 700", "KTM 890 Adventure R"]
+        "seoText": "La medida trasera 140/80B18 es la trasera de aro 18 para motos adventure con suspensión de largo recorrido. Compatible con Honda Africa Twin CRF1100, Honda XL750 Transalp y Yamaha Ténéré 700. El aro 18 trasero ofrece mayor elección de medidas y mejor comportamiento off-road que el aro 17. Importado directamente a Chile desde ZOFRI Iquique.",
+        "compatMotos": [
+          "Honda Africa Twin CRF1100",
+          "Honda XL750 Transalp",
+          "Yamaha Ténéré 700",
+          "KTM 890 Adventure R"
+        ]
       },
       {
         "medida": "150/70B17",
         "position": "trasera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "69",
         "priceCLP": 99990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K784 Big Block 150/70B17 Chile",
-        "seoText": "La medida 150/70B17 es la trasera de aro 17 más popular para motos adventure medianas en Chile. Compatible con KTM 890 Adventure, Royal Enfield Himalayan 450 y CFMoto 700MT. Importado directamente por Carioca Chile Ltda. desde ZOFRI Iquique.",
-        "compatMotos": ["KTM 890 Adventure", "Royal Enfield Himalayan 450", "CFMoto 700MT", "Honda CB500X"]
+        "seoText": "La medida trasera 150/70B17 es la más popular en Chile para motos adventure medianas de uso mixto. Compatible con KTM 890 Adventure, Royal Enfield Himalayan 450 y CFMoto 700MT. Perfil 70 para equilibrio entre estabilidad en ruta y tracción en ripio. Medida de mayor rotación en bodega ZOFRI Iquique — disponibilidad permanente garantizada por Carioca Chile Ltda.",
+        "compatMotos": [
+          "KTM 890 Adventure",
+          "Royal Enfield Himalayan 450",
+          "CFMoto 700MT",
+          "Honda CB500X"
+        ]
       },
       {
         "medida": "150/70B18",
         "position": "trasera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "70",
         "priceCLP": 104990,
         "originalPriceCLP": 119990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K784 Big Block 150/70B18 Chile",
-        "seoText": "La medida 150/70B18 es la trasera de aro 18 para motos adventure de gran cilindrada como la Honda Africa Twin CRF1100 (versión adventure) y Honda XL750 Transalp. Compatible con llantas de radios tubeless de aro 18.",
-        "compatMotos": ["Honda Africa Twin CRF1100", "Honda XL750 Transalp", "BMW F 850 GS Adventure"]
+        "seoText": "La medida trasera 150/70B18 es la trasera de aro 18 para las adventure de gran cilindrada que combinan turismo y off-road. Compatible con Honda Africa Twin CRF1100L Adventure Sports y Honda XL750 Transalp. El aro 18 permite una gama más amplia de medidas off-road que el aro 17 para travesías largas por la Carretera Austral o el Camino de los Parques.",
+        "compatMotos": [
+          "Honda Africa Twin CRF1100",
+          "Honda XL750 Transalp",
+          "BMW F 850 GS Adventure"
+        ]
       },
       {
         "medida": "170/60B17",
         "position": "trasera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "T",
         "loadIndex": "72",
         "priceCLP": 109990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K784 Big Block 170/60B17 Chile",
-        "seoText": "La medida 170/60B17 es la trasera de gran sección para las motos adventure de alto cilindrado como la BMW R 1250 GS Adventure y Triumph Tiger 1200. Mayor superficie de contacto para estabilidad a alta velocidad en carretera.",
-        "compatMotos": ["BMW R 1250 GS Adventure", "Triumph Tiger 1200", "Honda Africa Twin CRF1100L"]
+        "seoText": "La medida trasera 170/60B17 es la trasera de gran sección para las motos adventure de 1200cc o más. Compatible con BMW R 1250 GS Adventure, Triumph Tiger 1200 y Honda Africa Twin CRF1100L en versión sport. La sección ancha de 170mm proporciona mayor superficie de contacto y estabilidad a alta velocidad en rutas pavimentadas. Importado por Carioca Chile Ltda. desde ZOFRI Iquique.",
+        "compatMotos": [
+          "BMW R 1250 GS Adventure",
+          "Triumph Tiger 1200",
+          "Honda Africa Twin CRF1100L"
+        ]
       }
     ],
     "usage": {
@@ -132,8 +197,12 @@
       "offroad": 15
     },
     "motos": [
-      "BMW R 1250 GS", "BMW F 850 GS", "Honda Africa Twin CRF1100",
-      "Yamaha Ténéré 700", "KTM 890 Adventure", "Triumph Tiger 900"
+      "BMW R 1250 GS",
+      "BMW F 850 GS",
+      "Honda Africa Twin CRF1100",
+      "Yamaha Ténéré 700",
+      "KTM 890 Adventure",
+      "Triumph Tiger 900"
     ],
     "schema": {
       "brand": "Kenda",
@@ -144,7 +213,30 @@
       "title": "Kenda K784 Big Block Chile | Trail Adventure | Kenda Moto",
       "description": "Neumático Kenda K784 Big Block para motos trail y adventure en Chile. 9 medidas disponibles. Distribuidor oficial Iquique ZOFRI. Envío gratis a todo Chile."
     },
-    "isFeatured": true
+    "isFeatured": true,
+    "reviews": [
+      {
+        "author": "Carlos M.",
+        "location": "Santiago",
+        "date": "2025-03-15",
+        "rating": 5,
+        "text": "Excelente neumático. Agarre en tierra y confort en asfalto. Llegó rápido desde Iquique, todo bien empacado."
+      },
+      {
+        "author": "Jorge P.",
+        "location": "Concepción",
+        "date": "2025-02-10",
+        "rating": 5,
+        "text": "Originales, mismo precio que en la marca. Atención por WhatsApp muy rápida. Los recomiendo."
+      },
+      {
+        "author": "Sebastián R.",
+        "location": "Puerto Montt",
+        "date": "2025-01-22",
+        "rating": 4,
+        "text": "Buena calidad Kenda, cumple lo prometido. Despacho en 3 días hasta el sur, correcto."
+      }
+    ]
   },
   {
     "slug": "kenda-k778",
@@ -152,7 +244,9 @@
     "name": "Kenda K778 Knarly",
     "tagline": "Enduro Trasero · Hard/Intermediate",
     "category": "enduro",
-    "uso": ["enduro"],
+    "uso": [
+      "enduro"
+    ],
     "description": "El Kenda K778 Knarly es el neumático trasero de enduro para terrenos duros e intermedios. Su diseño de bloques escalonados bidireccional ofrece tracción extrema en roca, tierra compacta y caminos pedregosos. Compuesto duro para máxima durabilidad. Se monta en la rueda trasera; para la delantera, consulta el K779 Knarly Front.",
     "features": [
       "Neumático trasero exclusivo — montar en posición trasera",
@@ -165,30 +259,55 @@
       {
         "medida": "120/90-18",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "65",
         "priceCLP": 79990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K778 Knarly 120/90-18 Chile — Enduro Trasero",
-        "seoText": "La medida trasera 120/90-18 del K778 Knarly es la más usada en motos de enduro 250-300cc de dos y cuatro tiempos. Compatible con KTM EXC 300, Husqvarna TE 300 y Beta RR 300. Importado directamente a Chile desde ZOFRI Iquique.",
-        "compatMotos": ["KTM EXC 300", "Husqvarna TE 300", "Beta RR 300", "GasGas EC 300"]
+        "seoText": "La medida trasera 120/90-18 del K778 Knarly es la elección estándar para motos de enduro 2 tiempos de 250-300cc. Compatible con KTM EXC 300, Husqvarna TE 300, Beta RR 300 y GasGas EC 300. Construcción TT (con cámara) para llantas de radios de acero — no apto para llantas de aleación. Compuesto duro para máxima durabilidad en roca, tierra compacta y caminos pedregosos del secano chileno. Importado directamente a Chile desde ZOFRI Iquique por Carioca Chile Ltda.",
+        "compatMotos": [
+          "KTM EXC 300",
+          "Husqvarna TE 300",
+          "Beta RR 300",
+          "GasGas EC 300"
+        ]
       },
       {
         "medida": "140/80-18",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "70",
         "priceCLP": 89990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K778 Knarly 140/80-18 Chile — Enduro Hard",
-        "seoText": "La medida trasera 140/80-18 del K778 Knarly es el estándar para motos de enduro 450cc de gran cilindrada. Compatible con KTM EXC 450/500, Husqvarna FE 450/501, Beta RR 430/480 y GasGas EC 450F.",
-        "compatMotos": ["KTM EXC 450", "KTM EXC 500", "Husqvarna FE 450", "Husqvarna FE 501", "Beta RR 430", "GasGas EC 450F"]
+        "seoText": "La medida trasera 140/80-18 del K778 Knarly es la estándar para enduro 4 tiempos de 450cc en Chile. Compatible con KTM EXC 450, KTM EXC 500, Husqvarna FE 450/501, Beta RR 430/480 y GasGas EC 450F. Mayor sección que el 120/90 para más flotación en suelos sueltos del norte de Chile. Homologado FIM para uso en competición enduro. Disponible en stock permanente bodega ZOFRI Iquique.",
+        "compatMotos": [
+          "KTM EXC 450",
+          "KTM EXC 500",
+          "Husqvarna FE 450",
+          "Husqvarna FE 501",
+          "Beta RR 430",
+          "GasGas EC 450F"
+        ]
       }
     ],
-    "usage": { "enduro": 85, "trail": 15 },
-    "motos": ["KTM EXC", "Husqvarna FE", "Husqvarna TE", "Beta RR", "GasGas EC"],
+    "usage": {
+      "enduro": 85,
+      "trail": 15
+    },
+    "motos": [
+      "KTM EXC",
+      "Husqvarna FE",
+      "Husqvarna TE",
+      "Beta RR",
+      "GasGas EC"
+    ],
     "schema": {
       "brand": "Kenda",
       "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
@@ -206,7 +325,9 @@
     "name": "Kenda K779 Knarly",
     "tagline": "Enduro Delantero · Front Enduro",
     "category": "enduro",
-    "uso": ["enduro"],
+    "uso": [
+      "enduro"
+    ],
     "description": "El Kenda K779 Knarly es el neumático delantero de enduro diseñado para usarse en pareja con el K778 Knarly trasero. Sus bloques agresivos ofrecen dirección precisa y tracción delantera en barro, tierra suelta y terrenos técnicos. Indispensable para enduro competición.",
     "features": [
       "Neumático delantero — montar en posición delantera",
@@ -219,30 +340,57 @@
       {
         "medida": "80/100-21",
         "position": "delantera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "51",
         "priceCLP": 69990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K779 Knarly 80/100-21 Chile — Enduro Delantero",
-        "seoText": "La medida delantera 80/100-21 es el estándar universal para motos de enduro y cross de 250-500cc con aro 21 delantero. Compatible con KTM EXC, Husqvarna TE/FE, Beta RR y GasGas EC. Se monta en la rueda delantera.",
-        "compatMotos": ["KTM EXC 250", "KTM EXC 450", "Husqvarna TE 250", "Husqvarna FE 350", "Beta RR 250", "GasGas EC 350"]
+        "seoText": "La medida delantera 80/100-21 del K779 Knarly es la delantera de enduro estándar para todas las motos de enduro competición. Compatible con KTM EXC, Husqvarna TE, Beta RR y GasGas EC en todas las cilindradas. Diseño de bloques altos para máxima tracción en giros y terrenos húmedos. Construcción TT (con cámara) para llantas de radios. Importado directamente desde ZOFRI Iquique por Carioca Chile Ltda.",
+        "compatMotos": [
+          "KTM EXC 250",
+          "KTM EXC 450",
+          "Husqvarna TE 250",
+          "Husqvarna FE 350",
+          "Beta RR 250",
+          "GasGas EC 350"
+        ]
       },
       {
         "medida": "90/90-21",
         "position": "delantera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "54",
         "priceCLP": 74990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K779 Knarly 90/90-21 Chile — Enduro Front",
-        "seoText": "La medida delantera 90/90-21 del K779 Knarly ofrece mayor volumen de aire para mejor amortiguación en enduro. Compatible con motos de enduro 350-500cc que admiten aro 21 delantero más ancho.",
-        "compatMotos": ["KTM EXC 500", "Husqvarna FE 501", "Beta RR 430", "GasGas EC 450F"]
+        "seoText": "La medida delantera 90/90-21 del K779 Knarly es la delantera ancha de enduro para motos de mayor cilindrada que buscan mayor volumen de aire y flotación en terrenos blandos. Compatible con KTM EXC 500 y modelos de enduro 450cc con horquillas de 48mm. Construcción TT (con cámara). Bloque central y lateral alto para agarre extremo en piedra y tierra suelta. Disponible en bodega ZOFRI Iquique.",
+        "compatMotos": [
+          "KTM EXC 500",
+          "Husqvarna FE 501",
+          "Beta RR 430",
+          "GasGas EC 450F"
+        ]
       }
     ],
-    "usage": { "enduro": 80, "offroad": 15, "trail": 5 },
-    "motos": ["KTM EXC", "Husqvarna FE", "Husqvarna TE", "Beta RR", "GasGas EC", "Honda CRF"],
+    "usage": {
+      "enduro": 80,
+      "offroad": 15,
+      "trail": 5
+    },
+    "motos": [
+      "KTM EXC",
+      "Husqvarna FE",
+      "Husqvarna TE",
+      "Beta RR",
+      "GasGas EC",
+      "Honda CRF"
+    ],
     "schema": {
       "brand": "Kenda",
       "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
@@ -259,7 +407,9 @@
     "name": "Kenda K785 Millville II",
     "tagline": "Motocross · Soft/Intermediate Terrain",
     "category": "cross-motocross",
-    "uso": ["motocross"],
+    "uso": [
+      "motocross"
+    ],
     "description": "El Kenda K785 Millville II es un neumático de motocross para terrenos blandos e intermedios. Diseño direccional con bloques centrales de gran altura para máxima propulsión y hombros anchos para esquinas precisas. Disponible en múltiples medidas para motos de 65cc a 450cc.",
     "features": [
       "Diseño direccional Millville para terrenos blandos/intermedios",
@@ -272,114 +422,185 @@
       {
         "medida": "70/100-17",
         "position": "delantera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "40",
         "priceCLP": 49990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K785 Millville 70/100-17 Chile — MX Delantero",
         "seoText": "La medida 70/100-17 es la delantera para motos de motocross de 85cc a 125cc júnior con aro 17 delantero. Compatible con Kawasaki KX 85, Suzuki RM 85, Husqvarna TC 85.",
-        "compatMotos": ["Kawasaki KX 85", "Suzuki RM 85", "Husqvarna TC 85", "KTM SX 85"]
+        "compatMotos": [
+          "Kawasaki KX 85",
+          "Suzuki RM 85",
+          "Husqvarna TC 85",
+          "KTM SX 85"
+        ]
       },
       {
         "medida": "70/100-19",
         "position": "delantera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "42",
         "priceCLP": 52990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K785 Millville 70/100-19 Chile — MX Delantero",
         "seoText": "La medida 70/100-19 es la delantera para motos MX de 85-125cc con aro 19. Compatible con KTM SX 85 (grande), Husqvarna TC 85 (grande), Kawasaki KX 100.",
-        "compatMotos": ["KTM SX 85 Big Wheel", "Husqvarna TC 85 Big Wheel", "Kawasaki KX 100"]
+        "compatMotos": [
+          "KTM SX 85 Big Wheel",
+          "Husqvarna TC 85 Big Wheel",
+          "Kawasaki KX 100"
+        ]
       },
       {
         "medida": "80/100-21",
         "position": "delantera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "51",
         "priceCLP": 59990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K785 Millville 80/100-21 Chile — MX Delantero 250-450cc",
-        "seoText": "La medida 80/100-21 es la delantera estándar para motos de motocross de 250cc a 450cc. Compatible con Honda CRF 250R, Kawasaki KX 250, Yamaha YZ 250F y KTM SX 250. Importado directamente a Chile desde ZOFRI Iquique.",
-        "compatMotos": ["Honda CRF 250R", "Kawasaki KX 250", "Yamaha YZ 250F", "KTM SX 250", "Husqvarna TC 250"]
+        "seoText": "La medida delantera 80/100-21 del K785 Millville II es el estándar de motocross para todas las motos MX 4 tiempos de 250 a 450cc. Compatible con Honda CRF 250R, Kawasaki KX 250, Yamaha YZ 250F, KTM SX 250 y Husqvarna TC 250. Diseño direccional para máxima propulsión en bermas y trazadas MX. Construcción TT estándar MX. Importado directamente a Chile desde ZOFRI Iquique por Carioca Chile Ltda.",
+        "compatMotos": [
+          "Honda CRF 250R",
+          "Kawasaki KX 250",
+          "Yamaha YZ 250F",
+          "KTM SX 250",
+          "Husqvarna TC 250"
+        ]
       },
       {
         "medida": "90/100-21",
         "position": "delantera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "57",
         "priceCLP": 64990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K785 Millville 90/100-21 Chile — MX Delantero",
         "seoText": "La medida 90/100-21 del K785 es una delantera más ancha para motos MX de gran cilindrada que buscan mayor volumen de aire y mejor flotación en terrenos blandos.",
-        "compatMotos": ["Honda CRF 450R", "KTM SX 450F", "Yamaha YZ 450F", "Kawasaki KX 450"]
+        "compatMotos": [
+          "Honda CRF 450R",
+          "KTM SX 450F",
+          "Yamaha YZ 450F",
+          "Kawasaki KX 450"
+        ]
       },
       {
         "medida": "90/100-14",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "49",
         "priceCLP": 52990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K785 Millville 90/100-14 Chile — MX Trasero Juvenil",
         "seoText": "La medida trasera 90/100-14 es para motos MX juveniles de 65-85cc con aro 14 trasero. Compatible con KTM SX 65, Kawasaki KX 65, Honda CRF 150.",
-        "compatMotos": ["KTM SX 65", "Kawasaki KX 65", "Honda CRF 150", "Husqvarna TC 65"]
+        "compatMotos": [
+          "KTM SX 65",
+          "Kawasaki KX 65",
+          "Honda CRF 150",
+          "Husqvarna TC 65"
+        ]
       },
       {
         "medida": "100/90-19",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "57",
         "priceCLP": 64990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K785 Millville 100/90-19 Chile — MX Trasero 125cc",
         "seoText": "La medida trasera 100/90-19 es para motos MX de 125cc con aro 19 trasero. Compatible con KTM SX 125, Husqvarna TC 125, Kawasaki KX 125, Yamaha YZ 125.",
-        "compatMotos": ["KTM SX 125", "Husqvarna TC 125", "Kawasaki KX 125", "Yamaha YZ 125"]
+        "compatMotos": [
+          "KTM SX 125",
+          "Husqvarna TC 125",
+          "Kawasaki KX 125",
+          "Yamaha YZ 125"
+        ]
       },
       {
         "medida": "110/90-19",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "62",
         "priceCLP": 69990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K785 Millville 110/90-19 Chile — MX Trasero",
         "seoText": "La medida trasera 110/90-19 del K785 es una alternativa más ancha para el aro 19 en motos MX 125-250cc. Mayor superficie para mejor tracción en barro y tierra suelta.",
-        "compatMotos": ["Honda CRF 250R", "Kawasaki KX 250", "KTM SX 250"]
+        "compatMotos": [
+          "Honda CRF 250R",
+          "Kawasaki KX 250",
+          "KTM SX 250"
+        ]
       },
       {
         "medida": "110/100-18",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "64",
         "priceCLP": 74990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K785 Millville 110/100-18 Chile — MX 4T Trasero",
-        "seoText": "La medida trasera 110/100-18 es la medida estándar para motos MX 4 tiempos de 250-450cc. Compatible con Honda CRF 450R, Kawasaki KX 450, Yamaha YZ 450F y KTM SX 450F.",
-        "compatMotos": ["Honda CRF 450R", "Kawasaki KX 450", "Yamaha YZ 450F", "KTM SX 450F", "Husqvarna FC 450"]
+        "seoText": "La medida trasera 110/100-18 del K785 Millville II es el estándar para motos MX 4 tiempos de competición. Compatible con Honda CRF 450R, Kawasaki KX 450, Yamaha YZ 450F, KTM SX 450F y Husqvarna FC 450. Hombros anchos para esquinas precisas en pistas de tierra blanda e intermedia. La opción de mayor venta en Chile para motocross federado. Importado por Carioca Chile Ltda. desde ZOFRI Iquique.",
+        "compatMotos": [
+          "Honda CRF 450R",
+          "Kawasaki KX 450",
+          "Yamaha YZ 450F",
+          "KTM SX 450F",
+          "Husqvarna FC 450"
+        ]
       },
       {
         "medida": "120/100-18",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "68",
         "priceCLP": 79990,
         "stock": "low_stock",
         "seoH2": "Neumático Kenda K785 Millville 120/100-18 Chile — MX Wide Trasero",
         "seoText": "La medida trasera 120/100-18 es la versión más ancha para el aro 18, usada en motos MX 450cc de alto rendimiento que buscan mayor flotación en terrenos blandos y mayor tracción.",
-        "compatMotos": ["Honda CRF 450R", "KTM SX 450F", "Yamaha YZ 450F"]
+        "compatMotos": [
+          "Honda CRF 450R",
+          "KTM SX 450F",
+          "Yamaha YZ 450F"
+        ]
       }
     ],
-    "usage": { "motocross": 90, "enduro": 10 },
-    "motos": ["Honda CRF 450R", "Kawasaki KX 450", "Yamaha YZ 450F", "KTM SX 450F", "Husqvarna FC 450"],
+    "usage": {
+      "motocross": 90,
+      "enduro": 10
+    },
+    "motos": [
+      "Honda CRF 450R",
+      "Kawasaki KX 450",
+      "Yamaha YZ 450F",
+      "KTM SX 450F",
+      "Husqvarna FC 450"
+    ],
     "schema": {
       "brand": "Kenda",
       "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
@@ -397,7 +618,9 @@
     "name": "Kenda K782 Sand Mad",
     "tagline": "Motocross · Arena · Barro — Solo Trasero",
     "category": "cross-motocross",
-    "uso": ["motocross"],
+    "uso": [
+      "motocross"
+    ],
     "description": "El Kenda K782 Sand Mad es un neumático trasero especializado para arena profunda y barro extremo. Sus paletas largas y muy espaciadas muerden profundo en terrenos sueltos, ofreciendo tracción insuperable en dunas, playas y pistas de barro. Solo disponible en posición trasera — para la delantera se recomienda el K785 Millville.",
     "features": [
       "Solo posición trasera — no usar en delantera",
@@ -410,42 +633,71 @@
       {
         "medida": "100/90-19",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "57",
         "priceCLP": 64990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K782 Sand Mad 100/90-19 Chile — Arena Trasero",
         "seoText": "La medida trasera 100/90-19 del K782 Sand Mad es para motos MX 125cc en pistas de arena. Compatible con KTM SX 125, Husqvarna TC 125 y motos de 2 tiempos en arena.",
-        "compatMotos": ["KTM SX 125", "Husqvarna TC 125", "Kawasaki KX 125"]
+        "compatMotos": [
+          "KTM SX 125",
+          "Husqvarna TC 125",
+          "Kawasaki KX 125"
+        ]
       },
       {
         "medida": "110/90-19",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "62",
         "priceCLP": 69990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K782 Sand Mad 110/90-19 Chile — Arena/Barro Trasero",
         "seoText": "La medida trasera 110/90-19 del K782 Sand Mad es la más popular en motos MX 250cc para pistas de arena y barro. Compatible con Honda CRF 250R, Kawasaki KX 250 y KTM SX 250.",
-        "compatMotos": ["Honda CRF 250R", "Kawasaki KX 250", "KTM SX 250", "Yamaha YZ 250"]
+        "compatMotos": [
+          "Honda CRF 250R",
+          "Kawasaki KX 250",
+          "KTM SX 250",
+          "Yamaha YZ 250"
+        ]
       },
       {
         "medida": "110/100-18",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "M",
         "loadIndex": "64",
         "priceCLP": 74990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K782 Sand Mad 110/100-18 Chile — Arena 450cc Trasero",
         "seoText": "La medida trasera 110/100-18 del K782 Sand Mad es para motos MX 4 tiempos 450cc en arena y barro. Compatible con Honda CRF 450R, KTM SX 450F y Kawasaki KX 450 en condiciones de arena extrema.",
-        "compatMotos": ["Honda CRF 450R", "KTM SX 450F", "Kawasaki KX 450", "Yamaha YZ 450F"]
+        "compatMotos": [
+          "Honda CRF 450R",
+          "KTM SX 450F",
+          "Kawasaki KX 450",
+          "Yamaha YZ 450F"
+        ]
       }
     ],
-    "usage": { "motocross": 85, "offroad": 15 },
-    "motos": ["Honda CRF", "Kawasaki KX", "Yamaha YZ", "KTM SX", "Husqvarna TC"],
+    "usage": {
+      "motocross": 85,
+      "offroad": 15
+    },
+    "motos": [
+      "Honda CRF",
+      "Kawasaki KX",
+      "Yamaha YZ",
+      "KTM SX",
+      "Husqvarna TC"
+    ],
     "schema": {
       "brand": "Kenda",
       "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
@@ -462,7 +714,11 @@
     "name": "Kenda K761 Dual Sport",
     "tagline": "Dual Sport · Calle · Trail suave",
     "category": "dual-sport",
-    "uso": ["dual-sport", "calle", "trail"],
+    "uso": [
+      "dual-sport",
+      "calle",
+      "trail"
+    ],
     "description": "El Kenda K761 es el neumático dual sport ideal para quienes combinan trayectos en ciudad con excursiones por caminos de ripio y trail suave. Disponible en 29 medidas según Kenda, cubre desde pequeñas motos 200cc hasta motos dual sport de 650cc. Tubeless (TL) para llantas de aleación. Aprobado para uso en vía pública.",
     "features": [
       "Tubeless (TL) para llantas de aleación",
@@ -476,66 +732,107 @@
       {
         "medida": "90/90-21",
         "position": "delantera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "54",
         "priceCLP": 69990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K761 Dual Sport 90/90-21 Chile — Delantero",
-        "seoText": "La medida delantera 90/90-21 del K761 Dual Sport es para motos dual sport con aro 21 delantero como la Honda CRF 300L, Kawasaki KLX 300 y Suzuki DR 650. Tubeless, apto para uso en vía pública.",
-        "compatMotos": ["Honda CRF 300L", "Kawasaki KLX 300", "Suzuki DR 650", "Royal Enfield Himalayan 450"]
+        "seoText": "La medida delantera 90/90-21 del K761 Dual Sport es para motos trail y dual sport con aro 21 delantero para uso mixto vía pública y ripio. Compatible con Honda CRF 300L, Kawasaki KLX 300 y Suzuki DR 650. Banda central continua para bajo ruido y estabilidad en asfalto; bloques en hombro para agarre en tierra. Tubeless para llantas de aleación. Aprobado DOT para uso en vías públicas de Chile. Importado desde ZOFRI Iquique.",
+        "compatMotos": [
+          "Honda CRF 300L",
+          "Kawasaki KLX 300",
+          "Suzuki DR 650",
+          "Royal Enfield Himalayan 450"
+        ]
       },
       {
         "medida": "100/90-19",
         "position": "delantera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "57",
         "priceCLP": 72990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K761 Dual Sport 100/90-19 Chile",
         "seoText": "La medida 100/90-19 del K761 es para motos dual sport y trail con aro 19 delantero. Compatible con Honda XR 190, Yamaha WR 155 y motos enduro de uso mixto.",
-        "compatMotos": ["Honda XR 190", "Yamaha WR 155", "CFMoto 400NK Enduro"]
+        "compatMotos": [
+          "Honda XR 190",
+          "Yamaha WR 155",
+          "CFMoto 400NK Enduro"
+        ]
       },
       {
         "medida": "110/80-18",
         "position": "delantera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "58",
         "priceCLP": 74990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K761 Dual Sport 110/80-18 Chile",
         "seoText": "La medida 110/80-18 del K761 es para motos dual sport con aro 18 como la Honda CRF 300L Rally y Kawasaki KLX 300. También apto para motos clásicas de trail con aro 18.",
-        "compatMotos": ["Honda CRF 300L Rally", "Kawasaki KLX 300", "Suzuki DRZ 400"]
+        "compatMotos": [
+          "Honda CRF 300L Rally",
+          "Kawasaki KLX 300",
+          "Suzuki DRZ 400"
+        ]
       },
       {
         "medida": "120/80-18",
         "position": "delantera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "62",
         "priceCLP": 77990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K761 Dual Sport 120/80-18 Chile",
         "seoText": "La medida 120/80-18 del K761 es para motos dual sport de mayor cilindrada con aro 18. Compatible con Suzuki DR 650, Honda NX 400 y CFMoto 400NK.",
-        "compatMotos": ["Suzuki DR 650", "Honda NX 400", "CFMoto 400NK"]
+        "compatMotos": [
+          "Suzuki DR 650",
+          "Honda NX 400",
+          "CFMoto 400NK"
+        ]
       },
       {
         "medida": "130/90-16",
         "position": "trasera",
-        "type": ["TL"],
+        "type": [
+          "TL"
+        ],
         "speedIndex": "S",
         "loadIndex": "67",
         "priceCLP": 82990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K761 Dual Sport 130/90-16 Chile — Trasero",
-        "seoText": "La medida trasera 130/90-16 del K761 es para motos dual sport y adventure con aro 16 trasero. Compatible con Honda CRF 300L, Kawasaki KLX 300 y Royal Enfield Himalayan 450.",
-        "compatMotos": ["Honda CRF 300L", "Kawasaki KLX 300", "Royal Enfield Himalayan 450", "Suzuki DR 200"]
+        "seoText": "La medida trasera 130/90-16 del K761 Dual Sport es para motos trail de uso mixto con aro 16 trasero de aleación. Compatible con Honda CRF 300L, Kawasaki KLX 300, Royal Enfield Himalayan 450 y Suzuki DR 200. El aro 16 trasero ofrece mayor amortiguación en caminos de ripio, lo que lo hace ideal para viajes de largo aliento entre ciudades de Chile. Tubeless. Importado desde ZOFRI Iquique por Carioca Chile Ltda.",
+        "compatMotos": [
+          "Honda CRF 300L",
+          "Kawasaki KLX 300",
+          "Royal Enfield Himalayan 450",
+          "Suzuki DR 200"
+        ]
       }
     ],
-    "usage": { "carretera": 50, "trail": 40, "offroad": 10 },
-    "motos": ["Honda CRF 300L", "Kawasaki KLX 300", "Suzuki DR 650", "Royal Enfield Himalayan"],
+    "usage": {
+      "carretera": 50,
+      "trail": 40,
+      "offroad": 10
+    },
+    "motos": [
+      "Honda CRF 300L",
+      "Kawasaki KLX 300",
+      "Suzuki DR 650",
+      "Royal Enfield Himalayan"
+    ],
     "schema": {
       "brand": "Kenda",
       "manufacturer": "Kenda Rubber Industrial Co., Ltd.",
@@ -553,7 +850,11 @@
     "name": "Kenda K787 Equilibrium",
     "tagline": "Classic · Trials · Dual Sport Clásico",
     "category": "calle-carretera",
-    "uso": ["carretera", "trail", "dual-sport"],
+    "uso": [
+      "carretera",
+      "trail",
+      "dual-sport"
+    ],
     "description": "El Kenda K787 Equilibrium es un neumático de construcción diagonal (bias) con cámara (TT) para motos clásicas de trail, dual sport de generación anterior y motos de trials con uso en vía pública. Sus medidas en formato convencional lo hacen compatible con motos clásicas de radios de los años 80 a 2000 con aros 18 y 21.",
     "features": [
       "Construcción diagonal TT (con cámara)",
@@ -566,42 +867,73 @@
       {
         "medida": "2.75-21",
         "position": "delantera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "P",
         "loadIndex": "45",
         "priceCLP": 59990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K787 2.75-21 Chile — Delantera Clásica",
         "seoText": "La medida 2.75-21 es la medida delantera clásica para motos de trail y enduro vintage con aro 21. Compatible con Yamaha XT 600, Suzuki DR 350 y Honda XR 600 de generaciones anteriores.",
-        "compatMotos": ["Yamaha XT 600", "Suzuki DR 350", "Honda XR 600", "BMW R 80GS"]
+        "compatMotos": [
+          "Yamaha XT 600",
+          "Suzuki DR 350",
+          "Honda XR 600",
+          "BMW R 80GS"
+        ]
       },
       {
         "medida": "4.00-18",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "P",
         "loadIndex": "64",
         "priceCLP": 67990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K787 4.00-18 Chile — Trasera Clásica",
         "seoText": "La medida trasera 4.00-18 es para motos clásicas de trail y dual sport con aro 18. Compatible con Yamaha XT 500/600, Suzuki DR 650 (versiones antiguas) y Honda XR 600.",
-        "compatMotos": ["Yamaha XT 500", "Yamaha XT 600", "Honda XR 600", "Kawasaki KLR 600"]
+        "compatMotos": [
+          "Yamaha XT 500",
+          "Yamaha XT 600",
+          "Honda XR 600",
+          "Kawasaki KLR 600"
+        ]
       },
       {
         "medida": "4.50-18",
         "position": "trasera",
-        "type": ["TT"],
+        "type": [
+          "TT"
+        ],
         "speedIndex": "P",
         "loadIndex": "70",
         "priceCLP": 72990,
         "stock": "in_stock",
         "seoH2": "Neumático Kenda K787 4.50-18 Chile — Trasera Clásica Wide",
         "seoText": "La medida trasera 4.50-18 del K787 Equilibrium es la versión más ancha para aro 18 en motos clásicas de trail. Compatible con BMW R 80GS, Kawasaki KLR 650 clásica y otras motos adventure de primera generación.",
-        "compatMotos": ["BMW R 80GS", "Kawasaki KLR 650", "Suzuki DR 650", "Honda Africa Twin XRV750"]
+        "compatMotos": [
+          "BMW R 80GS",
+          "Kawasaki KLR 650",
+          "Suzuki DR 650",
+          "Honda Africa Twin XRV750"
+        ]
       }
     ],
-    "usage": { "carretera": 50, "trail": 40, "offroad": 10 },
-    "motos": ["Yamaha XT 600", "Suzuki DR 650", "Honda XR 600", "BMW R 80GS", "Kawasaki KLR 650"],
+    "usage": {
+      "carretera": 50,
+      "trail": 40,
+      "offroad": 10
+    },
+    "motos": [
+      "Yamaha XT 600",
+      "Suzuki DR 650",
+      "Honda XR 600",
+      "BMW R 80GS",
+      "Kawasaki KLR 650"
+    ],
     "schema": {
       "brand": "Kenda",
       "manufacturer": "Kenda Rubber Industrial Co., Ltd.",

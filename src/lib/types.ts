@@ -71,6 +71,7 @@ export interface Product {
   seo: SEOMeta
   isNew?: boolean
   isFeatured?: boolean
+  reviews?: Review[]
 }
 
 export interface TerrainCard {
@@ -92,6 +93,14 @@ export interface MotoCompat {
 export interface FAQItem {
   question: string
   answer: string
+}
+
+export interface Review {
+  author: string
+  location: string
+  date: string
+  rating: number
+  text: string
 }
 
 export interface CategoryData {

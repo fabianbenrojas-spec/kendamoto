@@ -6,6 +6,8 @@ import { getProductsByCategory, formatPriceCLP, sizeToSlug, getDefaultSize } fro
 import { buildBreadcrumb, buildFAQ, buildCollectionPage } from '@/lib/schema'
 import categories from '@/data/categories.json'
 import type { CategoryData } from '@/lib/types'
+import { CategorySeoBlock } from '@/components/sections/CategorySeoBlock'
+import { CATEGORY_SEO_CONTENT } from '@/data/category-seo-content'
 
 type TerrainCard = { terrain: string; icon: string; percentage: number; description: string; model: string }
 type CompatMoto = { make: string; model: string; front: string; rear: string; cc: string }
@@ -633,6 +635,10 @@ export default async function CategoryPage({ params }: Props) {
             </div>
           </div>
         </section>
+      )}
+
+      {CATEGORY_SEO_CONTENT[categoria] && (
+        <CategorySeoBlock content={CATEGORY_SEO_CONTENT[categoria]} />
       )}
 
       {/* B2B Banner */}
