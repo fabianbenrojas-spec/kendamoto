@@ -13,7 +13,6 @@ interface Props {
   allSizes: Size[]
   categoria: string
   modelo: string
-  relatedProducts: Product[]
 }
 
 /* ── Usage Mixer data ──────────────────────────────────────── */
@@ -84,7 +83,7 @@ function Stars({ rating }: { rating: number }) {
 
 /* ── Main component ────────────────────────────────────────── */
 
-export function ProductPageClient({ product, selectedSize, allSizes, categoria, modelo, relatedProducts }: Props) {
+export function ProductPageClient({ product, selectedSize, allSizes, categoria, modelo }: Props) {
   const router = useRouter()
   const [isPending, startTransition] = useTransition()
   const [localSize, setLocalSize] = useState<Size>(selectedSize)
@@ -586,58 +585,6 @@ export function ProductPageClient({ product, selectedSize, allSizes, categoria, 
         </div>
       </section>
 
-      {/* ── Related products ───────────────────────────────── */}
-      {relatedProducts.length > 0 && (
-        <section style={{ padding: '64px 0', background: 'var(--paper)' }}>
-          <div className="wrap">
-            <div className="eyebrow mb-4">Misma categoría</div>
-            <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '28px', textTransform: 'uppercase', letterSpacing: '-0.01em', marginBottom: '24px' }}>
-              Otros modelos {categoria.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
-            </h2>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '16px', marginBottom: '24px' }}>
-              {relatedProducts.map(p => {
-                const defSize = p.sizes?.[0]
-                const defSlug = defSize
-                  ? defSize.medida.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '')
-                  : null
-                return (
-                  <Link
-                    key={p.slug}
-                    href={defSlug ? `/neumaticos-kenda-moto/${categoria}/${p.slug}/${defSlug}/` : `/neumaticos-kenda-moto/${categoria}/${p.slug}/`}
-                    style={{ textDecoration: 'none' }}
-                  >
-                    <div style={{ background: 'white', border: '1px solid var(--line)', padding: '24px', display: 'flex', flexDirection: 'column', gap: '8px', height: '100%' }}>
-                      <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '11px', letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--kenda)' }}>
-                        Kenda {p.ref}
-                      </div>
-                      <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '20px', textTransform: 'uppercase', letterSpacing: '-0.01em', color: 'var(--text)' }}>
-                        {p.name}
-                      </div>
-                      <div style={{ fontFamily: 'var(--font-body)', fontSize: '13px', color: 'var(--muted)', flex: 1 }}>
-                        {p.tagline}
-                      </div>
-                      {p.sizes && (
-                        <div style={{ fontFamily: 'var(--font-body)', fontSize: '12px', color: 'var(--dim)' }}>
-                          {p.sizes.length} medida{p.sizes.length !== 1 ? 's' : ''}
-                        </div>
-                      )}
-                      <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '12px', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--kenda)', marginTop: '8px' }}>
-                        Ver modelo →
-                      </div>
-                    </div>
-                  </Link>
-                )
-              })}
-            </div>
-            <Link
-              href={`/neumaticos-kenda-moto/${categoria}/`}
-              style={{ fontFamily: 'var(--font-body)', fontSize: '14px', color: 'var(--kenda)', textDecoration: 'none', borderBottom: '1px solid var(--kenda)', paddingBottom: '2px' }}
-            >
-              ← Ver todos los neumáticos {categoria.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
-            </Link>
-          </div>
-        </section>
-      )}
     </div>
   )
 }

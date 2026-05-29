@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { absoluteUrl } from '@/lib/site'
 import { buildBreadcrumb } from '@/lib/schema'
 import { FAQAccordion } from '@/components/ui/FAQAccordion'
+import { CoberturaChile } from '@/components/sections/CoberturaChile'
+import { B2BBanner } from '@/components/product/B2BBanner'
 import categories from '@/data/categories.json'
 
 export const metadata: Metadata = {
@@ -182,6 +184,9 @@ export default function NeumaticosCatalogPage() {
           </div>
         </div>
       </section>
+
+      <CoberturaChile />
+      <B2BBanner />
 
       {/* FAQ */}
       <section style={{ padding: '64px 0', background: 'var(--paper)' }}>

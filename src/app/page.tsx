@@ -8,6 +8,8 @@ import { absoluteUrl } from '@/lib/site'
 import { TireFinder } from '@/components/finder/TireFinder'
 import { FeaturedProductsFilter } from '@/components/home/FeaturedProductsFilter'
 import { FAQAccordion } from '@/components/ui/FAQAccordion'
+import { CoberturaChile } from '@/components/sections/CoberturaChile'
+import { NewsletterBanner } from '@/components/sections/NewsletterBanner'
 
 export const metadata: Metadata = {
   title: 'Neumáticos Kenda Moto Chile | Distribuidor Iquique ZOFRI | Envío Gratis',
@@ -499,6 +501,8 @@ export default async function HomePage() {
         </div>
       </section>
 
+      <CoberturaChile />
+
       {/* B2B BANNER */}
       <section style={{ background: 'var(--ink)', padding: '48px 0' }}>
         <div className="wrap">
@@ -692,6 +696,7 @@ export default async function HomePage() {
           <FAQAccordion items={faqItems} />
         </div>
       </section>
+      <NewsletterBanner />
     </>
   )
 }

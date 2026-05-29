@@ -5,6 +5,7 @@ import { buildFAQ, buildBreadcrumb, buildLocalBusinessSchema } from '@/lib/schem
 import { B2BForm } from '@/components/mayoristas/B2BForm'
 import { QuoteCalculator } from '@/components/mayoristas/QuoteCalculator'
 import { FAQAccordion } from '@/components/ui/FAQAccordion'
+import { ProcesoB2B } from '@/components/sections/ProcesoB2B'
 
 export const metadata: Metadata = {
   title: 'Mayorista Neumáticos Moto Chile — Distribuidor Kenda ZOFRI Iquique | B2B',
@@ -481,8 +482,10 @@ export default function MayoristasPage() {
         </div>
       </section>
 
+      <ProcesoB2B />
+
       {/* Quote Calculator */}
-      <section style={{ padding: '80px 0', background: 'var(--paper)' }}>
+      <section id="cotizador" style={{ padding: '80px 0', background: 'var(--paper)' }}>
         <div className="wrap" style={{ maxWidth: '800px' }}>
           <QuoteCalculator />
         </div>

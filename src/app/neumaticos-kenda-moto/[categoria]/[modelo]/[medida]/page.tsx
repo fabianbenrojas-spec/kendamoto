@@ -5,6 +5,9 @@ import { buildProductSchema, buildBreadcrumb } from '@/lib/schema'
 import { absoluteUrl } from '@/lib/site'
 import { formatPriceCLP, getDefaultSize } from '@/lib/products'
 import { ProductPageClient } from '@/components/product/ProductPageClient'
+import { ProductFAQ } from '@/components/product/ProductFAQ'
+import { B2BBanner } from '@/components/product/B2BBanner'
+import { RelatedProducts } from '@/components/product/RelatedProducts'
 import Link from 'next/link'
 
 interface Props {
@@ -130,8 +133,10 @@ export default async function ProductSizePage({ params }: Props) {
         allSizes={allSizes}
         categoria={categoria}
         modelo={modelo}
-        relatedProducts={relatedProducts}
       />
+      <ProductFAQ product={product} selectedSize={selectedSize} />
+      <B2BBanner />
+      <RelatedProducts products={relatedProducts} categoria={categoria} />
     </>
   )
 }
