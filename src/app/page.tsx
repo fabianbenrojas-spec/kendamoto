@@ -10,6 +10,7 @@ import { FeaturedProductsFilter } from '@/components/home/FeaturedProductsFilter
 import { FAQAccordion } from '@/components/ui/FAQAccordion'
 import { CoberturaChile } from '@/components/sections/CoberturaChile'
 import { NewsletterBanner } from '@/components/sections/NewsletterBanner'
+import { BrandImage } from '@/components/ui/BrandImage'
 
 export const metadata: Metadata = {
   title: 'Neumáticos Kenda Moto Chile | Distribuidor Iquique ZOFRI | Envío Gratis',
@@ -451,51 +452,9 @@ export default async function HomePage() {
                 Conocer más sobre ZOFRI →
               </Link>
             </div>
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: '1fr 1fr',
-                gap: '12px',
-              }}
-            >
-              {[
-                { value: '+200', label: 'Referencias en stock permanente' },
-                { value: '2000', label: 'Año de fundación Carioca Chile' },
-                { value: '16', label: 'Regiones de Chile con cobertura' },
-                { value: '100%', label: 'Neumáticos originales garantizados' },
-              ].map(item => (
-                <div
-                  key={item.label}
-                  style={{
-                    background: 'var(--cream)',
-                    padding: '24px 20px',
-                    border: '1px solid var(--line)',
-                  }}
-                >
-                  <div
-                    style={{
-                      fontFamily: 'var(--font-display)',
-                      fontWeight: 800,
-                      fontSize: '36px',
-                      color: 'var(--kenda)',
-                      letterSpacing: '-0.02em',
-                    }}
-                  >
-                    {item.value}
-                  </div>
-                  <div
-                    style={{
-                      fontFamily: 'var(--font-body)',
-                      fontSize: '13px',
-                      color: 'var(--muted)',
-                      lineHeight: 1.4,
-                      marginTop: '4px',
-                    }}
-                  >
-                    {item.label}
-                  </div>
-                </div>
-              ))}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+              <BrandImage variant="bodega" />
+              <BrandImage variant="stock" />
             </div>
           </div>
         </div>
