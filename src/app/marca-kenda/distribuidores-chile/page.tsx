@@ -6,7 +6,7 @@ import { buildBreadcrumb, buildLocalBusinessSchema } from '@/lib/schema'
 export const metadata: Metadata = {
   title: 'Distribuidor Oficial Kenda en Chile — Carioca Chile Ltda. ZOFRI | Kenda Moto',
   description:
-    'Carioca Chile Ltda. (RUT 78.846.500-9) es el distribuidor oficial exclusivo de Kenda Tires en Chile. Fundada en 1996. Bodega en Zona Franca de Iquique (ZOFRI). Envío a todo Chile.',
+    'Carioca Chile Ltda. (RUT 78.846.500-9) es el distribuidor oficial exclusivo de Kenda Tires en Chile. Fundada en 2000. Bodega en Zona Franca de Iquique (ZOFRI). Envío a todo Chile.',
   alternates: { canonical: absoluteUrl('/marca-kenda/distribuidores-chile/') },
 }
 
@@ -54,7 +54,7 @@ export default function DistribuidoresChilePage() {
                 <strong>RUT:</strong><br />78.846.500-9<br /><br />
                 <strong>Tipo de empresa:</strong><br />Soc. de Responsabilidad Limitada<br /><br />
                 <strong>Giro SII:</strong><br />Importadora y Exportadora de Bicicletas<br /><br />
-                <strong>Año de fundación:</strong><br />1996<br /><br />
+                <strong>Año de fundación:</strong><br />2000<br /><br />
                 <strong>Trabajadores:</strong><br />1–10
               </div>
               <div>
@@ -67,7 +67,7 @@ export default function DistribuidoresChilePage() {
           </div>
 
           <p style={{ fontFamily: 'var(--font-body)', fontSize: '16px', color: 'var(--text)', lineHeight: 1.8, marginBottom: '24px' }}>
-            Carioca Chile Ltda. (RUT 78.846.500-9) es el único importador y distribuidor oficial autorizado por Kenda Rubber Industrial Co., Ltd. (Taiwan) para el mercado chileno. Fundada en 1996, operamos desde la Zona Franca de Iquique, lo que nos permite importar directamente desde Taiwan con los beneficios arancelarios de la ZOFRI.
+            Carioca Chile Ltda. (RUT 78.846.500-9) es el único importador y distribuidor oficial autorizado por Kenda Rubber Industrial Co., Ltd. (Taiwan) para el mercado chileno. Fundada en 2000, operamos desde la Zona Franca de Iquique, lo que nos permite importar directamente desde Taiwan con los beneficios arancelarios de la ZOFRI.
           </p>
 
           <p style={{ fontFamily: 'var(--font-body)', fontSize: '16px', color: 'var(--text)', lineHeight: 1.8, marginBottom: '40px' }}>

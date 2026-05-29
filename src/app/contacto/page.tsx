@@ -121,7 +121,7 @@ export default function ContactoPage() {
                   <strong>RUT:</strong><br />78.846.500-9<br /><br />
                   <strong>Tipo de empresa:</strong><br />Soc. de Responsabilidad Limitada<br /><br />
                   <strong>Giro SII:</strong><br />Importadora y Exportadora de Bicicletas<br /><br />
-                  <strong>Año de fundación:</strong><br />1996<br /><br />
+                  <strong>Año de fundación:</strong><br />2000<br /><br />
                   <strong>Trabajadores:</strong><br />1–10<br /><br />
                   <strong>Actividad:</strong><br />Importación y distribución de neumáticos y cámaras Kenda<br /><br />
                   <strong>Sede operativa:</strong><br />Zona Franca de Iquique (ZOFRI)<br />Iquique, Región de Tarapacá, Chile<br /><br />

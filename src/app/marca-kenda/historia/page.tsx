@@ -14,7 +14,7 @@ const hitos = [
   { year: '1962', title: 'Fundación en Taiwan', desc: 'Kenda Rubber Industrial Co., Ltd. es fundada en Changhua, Taiwan. Inicio con fabricación de neumáticos para bicicleta.' },
   { year: '1970', title: 'Expansión a moto y auto', desc: 'Kenda amplía su línea de productos a neumáticos para motocicleta y automóvil, consolidando su posición en el mercado asiático.' },
   { year: '1990', title: 'Internacionalización', desc: 'Kenda comienza su expansión internacional, estableciendo distribuidores en Europa, Latinoamérica y Norteamérica.' },
-  { year: '1996', title: 'Llegada a Chile', desc: 'Carioca Chile Ltda. (RUT 78.846.500-9) es fundada en Chile y se convierte en el distribuidor oficial exclusivo de Kenda Tires para el mercado chileno, operando desde la Zona Franca de Iquique (ZOFRI).' },
+  { year: '2000', title: 'Llegada a Chile', desc: 'Carioca Chile Ltda. (RUT 78.846.500-9) es fundada en Chile y se convierte en el distribuidor oficial exclusivo de Kenda Tires para el mercado chileno, operando desde la Zona Franca de Iquique (ZOFRI).' },
   { year: '2010', title: 'Expansión productiva', desc: 'Kenda abre plantas de producción en China y Vietnam para satisfacer la demanda global creciente, manteniendo los estándares de calidad Taiwan.' },
   { year: '2024', title: 'Presencia global', desc: 'Kenda está presente en más de 50 países, con distribución activa en toda Latinoamérica y un catálogo de más de 2.000 referencias de neumáticos.' },
 ]
@@ -69,7 +69,7 @@ export default function HistoriaKendaPage() {
           <div style={{ marginTop: '48px', background: 'var(--cream)', border: '1px solid var(--line)', padding: '32px' }}>
             <div className="eyebrow mb-3">Kenda en Chile hoy</div>
             <p style={{ fontFamily: 'var(--font-body)', fontSize: '15px', color: 'var(--muted)', lineHeight: 1.8 }}>
-              Carioca Chile Ltda. mantiene más de 200 referencias Kenda en stock permanente en nuestra bodega de la Zona Franca de Iquique (ZOFRI). Con casi 30 años como distribuidor exclusivo (desde 1996), somos el punto de entrada oficial de Kenda Tires al mercado chileno.
+              Carioca Chile Ltda. mantiene más de 200 referencias Kenda en stock permanente en nuestra bodega de la Zona Franca de Iquique (ZOFRI). Con más de 25 años como distribuidor exclusivo (desde 2000), somos el punto de entrada oficial de Kenda Tires al mercado chileno.
             </p>
           </div>
         </div>

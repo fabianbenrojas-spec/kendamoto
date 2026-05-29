@@ -80,11 +80,17 @@ body {
 }
 
 @keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
-.marquee-track { animation: marquee 30s linear infinite; }
+.marquee-track {
+  animation: marquee 28s linear infinite;
+  will-change: transform;
+}
 .marquee-track:hover { animation-play-state: paused; }
+
+details summary::-webkit-details-marker { display: none; }
+details[open] summary .faq-indicator { transform: rotate(45deg); }
 
 .eyebrow {
   display: flex;

@@ -77,7 +77,7 @@ export default function ZofriIquiquePage() {
                 La Zona Franca de Iquique (ZOFRI) es el principal polo logístico de importación del norte de Chile. Operar desde ZOFRI nos permite importar neumáticos Kenda directamente desde Taiwan con beneficios arancelarios que no están disponibles para importadores fuera de la zona franca.
               </p>
               <p style={{ fontFamily: 'var(--font-body)', fontSize: '15px', color: 'var(--muted)', lineHeight: 1.8 }}>
-                Carioca Chile Ltda. opera en ZOFRI desde su fundación en 1996. En casi 30 años hemos construido una cadena de suministro directa con Kenda Rubber Industrial Co., Ltd. (Taiwan) que nos permite ofrecer los precios más competitivos del mercado chileno, sin pasar por distribuidores regionales ni intermediarios.
+                Carioca Chile Ltda. opera en ZOFRI desde su fundación en 2000. En más de 25 años hemos construido una cadena de suministro directa con Kenda Rubber Industrial Co., Ltd. (Taiwan) que nos permite ofrecer los precios más competitivos del mercado chileno, sin pasar por distribuidores regionales ni intermediarios.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>

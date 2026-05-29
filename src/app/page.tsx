@@ -458,7 +458,7 @@ export default async function HomePage() {
             >
               {[
                 { value: '+200', label: 'Referencias en stock permanente' },
-                { value: '1996', label: 'Año de fundación Carioca Chile' },
+                { value: '2000', label: 'Año de fundación Carioca Chile' },
                 { value: '16', label: 'Regiones de Chile con cobertura' },
                 { value: '100%', label: 'Neumáticos originales garantizados' },
               ].map(item => (
@@ -655,7 +655,7 @@ export default async function HomePage() {
               marginBottom: '8px',
             }}
           >
-            Kenda Since 1962 · Carioca Chile desde 1996
+            Kenda Since 1962 · Carioca Chile desde 2000
           </div>
           <p
             style={{

@@ -9,7 +9,7 @@ export function buildLocalBusinessSchema() {
     name: 'Carioca Chile Ltda. — Kenda Moto',
     legalName: 'Carioca Chile Ltda.',
     taxID: '78.846.500-9',
-    foundingDate: '1996',
+    foundingDate: '2000',
     numberOfEmployees: { '@type': 'QuantitativeValue', minValue: 1, maxValue: 10 },
     url: absoluteUrl('/'),
     logo: absoluteUrl('/kenda-logo.png'),
@@ -52,7 +52,7 @@ export function buildOrganizationSchema() {
     taxID: '78.846.500-9',
     url: absoluteUrl('/'),
     logo: absoluteUrl('/kenda-logo.png'),
-    foundingDate: '1996',
+    foundingDate: '2000',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
@@ -67,6 +67,10 @@ export function buildProductSchema(product: Product, size: Size, categoria: stri
   const url = absoluteUrl(
     `/neumaticos-kenda-moto/${categoria}/${product.slug}/${sizeToSlug(size.medida)}/`
   )
+  const exp = new Date()
+  exp.setFullYear(exp.getFullYear() + 1)
+  const priceValidUntil = exp.toISOString().split('T')[0]
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -83,7 +87,7 @@ export function buildProductSchema(product: Product, size: Size, categoria: stri
     seller: {
       '@type': 'Organization',
       name: 'Carioca Chile Ltda.',
-      foundingDate: '1996',
+      foundingDate: '2000',
     },
     url,
     offers: {
@@ -96,7 +100,7 @@ export function buildProductSchema(product: Product, size: Size, categoria: stri
           : size.stock === 'low_stock'
           ? 'https://schema.org/LimitedAvailability'
           : 'https://schema.org/OutOfStock',
-      priceValidUntil: '2025-12-31',
+      priceValidUntil,
       url,
       seller: { '@type': 'Organization', name: 'Carioca Chile Ltda.' },
     },

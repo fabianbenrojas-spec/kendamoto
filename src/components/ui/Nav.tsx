@@ -1,7 +1,7 @@
 'use client'
 
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import { useState } from 'react'
 
 const neumaticosMenu = {
   terreno: [
@@ -37,254 +37,322 @@ const neumaticosMenu = {
 export function Nav() {
   const [megaOpen, setMegaOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const dropdownRef = useRef<HTMLDivElement>(null)
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setMegaOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [])
+
+  // Close mobile drawer on resize to desktop
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth >= 768) setMobileOpen(false)
+    }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   return (
-    <header
-      style={{
-        background: 'white',
-        borderBottom: '1px solid var(--line)',
-        position: 'sticky',
-        top: 0,
-        zIndex: 100,
-      }}
-    >
-      <div className="wrap flex items-center justify-between" style={{ height: '64px' }}>
-        {/* Brand */}
-        <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <div
-            style={{
-              background: 'var(--kenda)',
-              color: 'white',
-              fontFamily: 'var(--font-display)',
-              fontWeight: 800,
-              fontSize: '20px',
-              letterSpacing: '-0.01em',
-              padding: '4px 10px',
-              lineHeight: 1,
-            }}
-          >
-            KENDA
-          </div>
-          <div style={{ lineHeight: 1.1 }}>
+    <>
+      <header
+        style={{
+          background: 'white',
+          borderBottom: '1px solid var(--line)',
+          position: 'sticky',
+          top: 0,
+          zIndex: 100,
+        }}
+      >
+        <div className="wrap flex items-center justify-between" style={{ height: '64px' }}>
+          {/* Brand */}
+          <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '12px' }}>
             <div
               style={{
+                background: 'var(--kenda)',
+                color: 'white',
                 fontFamily: 'var(--font-display)',
                 fontWeight: 800,
-                fontSize: '14px',
-                letterSpacing: '0.06em',
-                textTransform: 'uppercase',
-                color: 'var(--text)',
+                fontSize: '20px',
+                letterSpacing: '-0.01em',
+                padding: '4px 10px',
+                lineHeight: 1,
               }}
             >
-              MOTO CHILE
+              KENDA
             </div>
-            <div
-              style={{
-                fontFamily: 'var(--font-body)',
-                fontSize: '10px',
-                color: 'var(--muted)',
-                letterSpacing: '0.02em',
-              }}
-            >
-              Distribuidor Oficial
-            </div>
-          </div>
-        </Link>
-
-        {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-6">
-          <div
-            style={{ position: 'relative' }}
-            onMouseEnter={() => setMegaOpen(true)}
-            onMouseLeave={() => setMegaOpen(false)}
-          >
-            <button
-              style={{
-                fontFamily: 'var(--font-display)',
-                fontWeight: 700,
-                fontSize: '13px',
-                letterSpacing: '0.06em',
-                textTransform: 'uppercase',
-                color: 'var(--text)',
-                background: 'none',
-                border: 'none',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '4px',
-              }}
-            >
-              Neumáticos ▾
-            </button>
-
-            {megaOpen && (
+            <div style={{ lineHeight: 1.1 }}>
               <div
                 style={{
-                  position: 'absolute',
-                  top: '100%',
-                  left: '50%',
-                  transform: 'translateX(-50%)',
-                  background: 'white',
-                  border: '1px solid var(--line)',
-                  width: '720px',
-                  padding: '24px',
-                  display: 'grid',
-                  gridTemplateColumns: '1fr 1fr 1fr',
-                  gap: '24px',
-                  boxShadow: '0 8px 32px rgba(0,0,0,0.1)',
-                  zIndex: 200,
+                  fontFamily: 'var(--font-display)',
+                  fontWeight: 800,
+                  fontSize: '14px',
+                  letterSpacing: '0.06em',
+                  textTransform: 'uppercase',
+                  color: 'var(--text)',
                 }}
               >
-                <div>
-                  <div className="eyebrow mb-3" style={{ fontSize: '10px' }}>Por Terreno</div>
-                  {neumaticosMenu.terreno.map(item => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      style={{
-                        display: 'block',
-                        fontFamily: 'var(--font-body)',
-                        fontSize: '13px',
-                        color: 'var(--text)',
-                        textDecoration: 'none',
-                        padding: '4px 0',
-                      }}
-                      onMouseEnter={e => (e.currentTarget.style.color = 'var(--kenda)')}
-                      onMouseLeave={e => (e.currentTarget.style.color = 'var(--text)')}
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
-                <div>
-                  <div className="eyebrow mb-3" style={{ fontSize: '10px' }}>Por Modelo</div>
-                  {neumaticosMenu.modelos.map(item => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      style={{
-                        display: 'block',
-                        fontFamily: 'var(--font-body)',
-                        fontSize: '13px',
-                        color: 'var(--text)',
-                        textDecoration: 'none',
-                        padding: '4px 0',
-                      }}
-                      onMouseEnter={e => (e.currentTarget.style.color = 'var(--kenda)')}
-                      onMouseLeave={e => (e.currentTarget.style.color = 'var(--text)')}
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
-                <div>
-                  <div className="eyebrow mb-3" style={{ fontSize: '10px' }}>Por Medida</div>
-                  {neumaticosMenu.medidas.map(item => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      style={{
-                        display: 'block',
-                        fontFamily: 'var(--font-body)',
-                        fontSize: '13px',
-                        color: 'var(--text)',
-                        textDecoration: 'none',
-                        padding: '4px 0',
-                      }}
-                      onMouseEnter={e => (e.currentTarget.style.color = 'var(--kenda)')}
-                      onMouseLeave={e => (e.currentTarget.style.color = 'var(--text)')}
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
+                MOTO CHILE
               </div>
-            )}
-          </div>
-
-          {[
-            { label: 'Cámaras', href: '/camaras-aire-moto-kenda/' },
-            { label: 'Kenda', href: '/marca-kenda/' },
-            { label: 'Blog', href: '/blog/' },
-          ].map(item => (
-            <Link
-              key={item.href}
-              href={item.href}
-              style={{
-                fontFamily: 'var(--font-display)',
-                fontWeight: 700,
-                fontSize: '13px',
-                letterSpacing: '0.06em',
-                textTransform: 'uppercase',
-                color: 'var(--text)',
-                textDecoration: 'none',
-              }}
-            >
-              {item.label}
-            </Link>
-          ))}
-
-          <Link href="/mayoristas/" className="btn-primary" style={{ padding: '8px 16px', fontSize: '12px' }}>
-            Mayoristas B2B
+              <div
+                style={{
+                  fontFamily: 'var(--font-body)',
+                  fontSize: '10px',
+                  color: 'var(--muted)',
+                  letterSpacing: '0.02em',
+                }}
+              >
+                Distribuidor Oficial
+              </div>
+            </div>
           </Link>
-        </nav>
 
-        {/* Mobile menu button */}
-        <button
-          className="md:hidden"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          style={{
-            background: 'none',
-            border: 'none',
-            cursor: 'pointer',
-            fontFamily: 'var(--font-display)',
-            fontSize: '13px',
-            fontWeight: 700,
-            color: 'var(--text)',
-          }}
-        >
-          {mobileOpen ? '✕ CERRAR' : '☰ MENÚ'}
-        </button>
-      </div>
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex items-center gap-6">
+            {/* MegaMenu Neumáticos — click-based */}
+            <div style={{ position: 'relative' }} ref={dropdownRef}>
+              <button
+                onClick={() => setMegaOpen(v => !v)}
+                style={{
+                  fontFamily: 'var(--font-display)',
+                  fontWeight: 700,
+                  fontSize: '13px',
+                  letterSpacing: '0.06em',
+                  textTransform: 'uppercase',
+                  color: 'var(--text)',
+                  background: 'none',
+                  border: 'none',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '4px',
+                }}
+              >
+                Neumáticos {megaOpen ? '▴' : '▾'}
+              </button>
 
-      {/* Mobile menu */}
+              {megaOpen && (
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: 'calc(100% + 8px)',
+                    left: '50%',
+                    transform: 'translateX(-50%)',
+                    background: 'white',
+                    border: '1px solid var(--line)',
+                    width: '720px',
+                    padding: '24px',
+                    display: 'grid',
+                    gridTemplateColumns: '1fr 1fr 1fr',
+                    gap: '24px',
+                    boxShadow: '0 8px 32px rgba(0,0,0,0.1)',
+                    zIndex: 200,
+                  }}
+                >
+                  <div>
+                    <div className="eyebrow mb-3" style={{ fontSize: '10px' }}>Por Terreno</div>
+                    {neumaticosMenu.terreno.map(item => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        onClick={() => setMegaOpen(false)}
+                        style={{
+                          display: 'block',
+                          fontFamily: 'var(--font-body)',
+                          fontSize: '13px',
+                          color: 'var(--text)',
+                          textDecoration: 'none',
+                          padding: '4px 0',
+                        }}
+                        onMouseEnter={e => (e.currentTarget.style.color = 'var(--kenda)')}
+                        onMouseLeave={e => (e.currentTarget.style.color = 'var(--text)')}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                  <div>
+                    <div className="eyebrow mb-3" style={{ fontSize: '10px' }}>Por Modelo</div>
+                    {neumaticosMenu.modelos.map(item => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        onClick={() => setMegaOpen(false)}
+                        style={{
+                          display: 'block',
+                          fontFamily: 'var(--font-body)',
+                          fontSize: '13px',
+                          color: 'var(--text)',
+                          textDecoration: 'none',
+                          padding: '4px 0',
+                        }}
+                        onMouseEnter={e => (e.currentTarget.style.color = 'var(--kenda)')}
+                        onMouseLeave={e => (e.currentTarget.style.color = 'var(--text)')}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                  <div>
+                    <div className="eyebrow mb-3" style={{ fontSize: '10px' }}>Por Medida</div>
+                    {neumaticosMenu.medidas.map(item => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        onClick={() => setMegaOpen(false)}
+                        style={{
+                          display: 'block',
+                          fontFamily: 'var(--font-body)',
+                          fontSize: '13px',
+                          color: 'var(--text)',
+                          textDecoration: 'none',
+                          padding: '4px 0',
+                        }}
+                        onMouseEnter={e => (e.currentTarget.style.color = 'var(--kenda)')}
+                        onMouseLeave={e => (e.currentTarget.style.color = 'var(--text)')}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {[
+              { label: 'Cámaras', href: '/camaras-aire-moto-kenda/' },
+              { label: 'Kenda', href: '/marca-kenda/' },
+              { label: 'Blog', href: '/blog/' },
+            ].map(item => (
+              <Link
+                key={item.href}
+                href={item.href}
+                style={{
+                  fontFamily: 'var(--font-display)',
+                  fontWeight: 700,
+                  fontSize: '13px',
+                  letterSpacing: '0.06em',
+                  textTransform: 'uppercase',
+                  color: 'var(--text)',
+                  textDecoration: 'none',
+                }}
+              >
+                {item.label}
+              </Link>
+            ))}
+
+            <Link href="/mayoristas/" className="btn-primary" style={{ padding: '8px 16px', fontSize: '12px' }}>
+              Mayoristas B2B
+            </Link>
+          </nav>
+
+          {/* Mobile hamburger */}
+          <button
+            className="md:hidden"
+            onClick={() => setMobileOpen(v => !v)}
+            aria-label={mobileOpen ? 'Cerrar menú' : 'Abrir menú'}
+            style={{
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              fontFamily: 'var(--font-display)',
+              fontSize: '13px',
+              fontWeight: 700,
+              color: 'var(--text)',
+            }}
+          >
+            {mobileOpen ? '✕ CERRAR' : '☰ MENÚ'}
+          </button>
+        </div>
+      </header>
+
+      {/* Mobile full-screen drawer */}
       {mobileOpen && (
         <div
           style={{
-            background: 'white',
-            borderTop: '1px solid var(--line)',
-            padding: '16px 20px',
+            position: 'fixed',
+            inset: 0,
+            zIndex: 99,
+            background: 'var(--ink)',
+            color: 'white',
+            overflowY: 'auto',
+            paddingTop: '80px',
+            paddingBottom: '40px',
           }}
         >
-          {[
-            { label: 'Neumáticos', href: '/neumaticos-kenda-moto/' },
-            { label: 'Cámaras de Aire', href: '/camaras-aire-moto-kenda/' },
-            { label: 'Kenda', href: '/marca-kenda/' },
-            { label: 'Blog', href: '/blog/' },
-            { label: 'Mayoristas B2B', href: '/mayoristas/' },
-          ].map(item => (
-            <Link
-              key={item.href}
-              href={item.href}
-              onClick={() => setMobileOpen(false)}
+          {/* Tap-background to close */}
+          <div style={{ position: 'absolute', inset: 0 }} onClick={() => setMobileOpen(false)} />
+
+          <nav style={{ position: 'relative', padding: '0 24px' }}>
+            <div
               style={{
-                display: 'block',
                 fontFamily: 'var(--font-display)',
                 fontWeight: 700,
-                fontSize: '16px',
-                letterSpacing: '0.06em',
+                fontSize: '11px',
+                letterSpacing: '0.1em',
                 textTransform: 'uppercase',
-                color: 'var(--text)',
-                textDecoration: 'none',
-                padding: '12px 0',
-                borderBottom: '1px solid var(--line)',
+                color: 'var(--kenda)',
+                marginBottom: '12px',
               }}
             >
-              {item.label}
-            </Link>
-          ))}
+              Por Terreno
+            </div>
+            {neumaticosMenu.terreno.map(item => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setMobileOpen(false)}
+                style={{
+                  display: 'block',
+                  fontFamily: 'var(--font-display)',
+                  fontWeight: 700,
+                  fontSize: '20px',
+                  textTransform: 'uppercase',
+                  color: 'white',
+                  textDecoration: 'none',
+                  padding: '10px 0',
+                  borderBottom: '1px solid var(--line-dark)',
+                }}
+              >
+                {item.label}
+              </Link>
+            ))}
+
+            <div style={{ marginTop: '24px' }}>
+              {[
+                { label: 'Cámaras de Aire', href: '/camaras-aire-moto-kenda/' },
+                { label: 'Marca Kenda', href: '/marca-kenda/' },
+                { label: 'Blog', href: '/blog/' },
+                { label: 'Mayoristas B2B', href: '/mayoristas/' },
+              ].map(item => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMobileOpen(false)}
+                  style={{
+                    display: 'block',
+                    fontFamily: 'var(--font-display)',
+                    fontWeight: 700,
+                    fontSize: '16px',
+                    textTransform: 'uppercase',
+                    color: 'var(--dim)',
+                    textDecoration: 'none',
+                    padding: '10px 0',
+                  }}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          </nav>
         </div>
       )}
-    </header>
+    </>
   )
 }
