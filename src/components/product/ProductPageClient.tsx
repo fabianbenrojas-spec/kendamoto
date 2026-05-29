@@ -5,6 +5,7 @@ import { useTransition, useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { sizeToSlug, formatPriceCLP } from '@/lib/products'
 import { ProductTabs } from './ProductTabs'
+import { ProductImage } from '@/components/ui/ProductImage'
 import type { Product, Size } from '@/lib/types'
 
 interface Props {
@@ -217,34 +218,15 @@ export function ProductPageClient({ product, selectedSize, allSizes, categoria, 
               alignItems: 'start',
             }}
           >
-            {/* Left: Image placeholder */}
-            <div
-              style={{
-                background: 'var(--ink-2)',
-                border: '1px solid var(--line-dark)',
-                aspectRatio: '4/3',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexDirection: 'column',
-                gap: '8px',
-              }}
-            >
-              <div
-                style={{
-                  fontFamily: 'var(--font-display)',
-                  fontWeight: 800,
-                  fontSize: '48px',
-                  color: 'var(--kenda)',
-                  letterSpacing: '0.06em',
-                }}
-              >
-                {product.ref}
-              </div>
-              <div style={{ fontFamily: 'var(--font-body)', fontSize: '13px', color: 'var(--dim)' }}>
-                {localSize.medida}
-              </div>
-            </div>
+            {/* Product image */}
+            <ProductImage
+              slug={product.ref.toLowerCase()}
+              modelName={product.name}
+              medida={localSize.medida}
+              categoria={product.category.replace(/-/g, ' ')}
+              posicion={localSize.position}
+              priority
+            />
 
             {/* Right: Product info */}
             <div>

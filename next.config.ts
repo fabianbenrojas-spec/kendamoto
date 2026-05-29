@@ -15,8 +15,13 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: '**.vercel.app' },
       { protocol: 'https', hostname: 'kendamoto.cl' },
       { protocol: 'http', hostname: 'localhost' },
+      { protocol: 'https', hostname: 'powersports.kendatire.com', pathname: '/media/**' },
+      { protocol: 'https', hostname: 'www.kendatire.com', pathname: '/wp-content/**' },
+      { protocol: 'https', hostname: 'cdn.kendatire.com', pathname: '/**' },
     ],
     formats: ['image/avif', 'image/webp'],
+    deviceSizes: [375, 640, 768, 1080, 1200, 1920],
+    imageSizes: [16, 32, 64, 128, 256, 300, 600],
   },
   async headers() {
     return [
