@@ -8,7 +8,10 @@
     "description": "Compra neumáticos Kenda para moto en Iquique directamente desde nuestra bodega en la Zona Franca ZOFRI. Precios mayoristas, stock inmediato y despacho el mismo día.",
     "deliveryDays": "24h",
     "localContent": "Distribución directa desde nuestra bodega en Zona Franca ZOFRI Iquique. Al ser nuestra sede principal, ofrecemos el mayor stock disponible de neumáticos Kenda para moto en el norte de Chile, con precios directos de importación.",
+    "seoText": "Iquique y la Región de Tarapacá tienen algunas de las rutas más exigentes del país: el desierto del Atacama, los caminos del altiplano y las pistas de tierra del interior hacia Colchane. El K784 Big Block es la elección dominante de los riders del norte por su rendimiento en ripio suelto de cuarzo y asfalto quebrado por el calor. Para enduro duro en la precordillera de la Región de Tarapacá, el par K779+K778 Knarly es la referencia de los competidores locales. Stock disponible directamente en bodega ZOFRI, con precios de importación directa sin intermediarios.",
     "terrain": "Desierto · Atacama · Norte Grande",
+    "recommendedRefs": ["K784", "K779", "K778"],
+    "relevantCategories": ["trail-adventure", "enduro", "dual-sport"],
     "vol": 0,
     "priority": 1
   },
@@ -21,7 +24,10 @@
     "description": "Distribuidor oficial Kenda en Concepción y Biobío. Enduro, trail y adventure para las rutas del sur de Chile. Envío gratis en 3-4 días hábiles.",
     "deliveryDays": "3-4 días hábiles",
     "localContent": "Concepción es uno de los principales mercados de motos enduro y trail en Chile. La zona del Biobío, con sus cerros, bosques y caminos de ripio, es ideal para el uso de neumáticos Kenda K778 (enduro hard) y K784 Big Block (trail adventure).",
+    "seoText": "La Región del Biobío tiene el mayor índice de motos enduro per cápita del país. Sus bosques de pino y eucalipto, los senderos del Parque Nahuelbuta y los caminos de tierra del Ñuble hacen del K778 y K779 Knarly los neumáticos más solicitados. Para quienes combinan ruta y enduro en las sierras costeras, el K784 Big Block es la alternativa trail con homologación DOT. Los riders de Concepción también eligen el K785 Millville II para los circuitos de MX de la región. Envío en 3-4 días hábiles desde ZOFRI Iquique con cobertura a toda la Provincia de Concepción.",
     "terrain": "Enduro · Biobío · Sur de Chile",
+    "recommendedRefs": ["K778", "K779", "K784"],
+    "relevantCategories": ["enduro", "trail-adventure", "cross-motocross"],
     "vol": 2400,
     "priority": 1
   },
@@ -34,7 +40,10 @@
     "description": "Distribuidor oficial Kenda en Santiago. Amplio stock de neumáticos para moto con envío gratis en 2-3 días hábiles a toda la Región Metropolitana.",
     "deliveryDays": "2-3 días hábiles",
     "localContent": "Santiago concentra el mayor parque de motos de Chile. Desde el Cajón del Maipo hasta las rutas de montaña de los Andes, los motociclistas santiaguinos exigen neumáticos versátiles como el Kenda K761 Dual Sport y el K787 Equilibrium.",
+    "seoText": "Santiago es el mercado más grande de neumáticos moto de Chile. Los riders capitalinos combinan autopistas urbanas, el Cajón del Maipo y los pasos cordilleranos andinos. El K761 Dual Sport es el favorito para commuting diario con salidas al ripio del fin de semana. Para los que hacen la ruta Santiago–Puerto Montt o los pasos hacia Mendoza, el K784 Big Block es la elección trail adventure. Para ciudad y carretera pura, el K787 Equilibrium ofrece bajo ruido y alta durabilidad. Despacho 2-3 días hábiles a toda la Región Metropolitana, desde Puente Alto hasta Colina.",
     "terrain": "Urbano · Cordillera · Carretera",
+    "recommendedRefs": ["K761", "K784", "K787"],
+    "relevantCategories": ["dual-sport", "trail-adventure", "calle-carretera"],
     "vol": 210,
     "priority": 1
   },
@@ -47,7 +56,10 @@
     "description": "Distribuidor oficial Kenda en Valparaíso y Viña del Mar. Envío gratis en 2-3 días hábiles. Stock permanente de los modelos más populares.",
     "deliveryDays": "2-3 días hábiles",
     "localContent": "La V Región con sus rutas costeras y acceso a los Andes hace de Valparaíso un mercado ideal para neumáticos dual sport y trail adventure de la marca Kenda.",
+    "seoText": "La Ruta 68 y los cerros porteños definen la cultura moto de Valparaíso y Viña del Mar. El K787 Equilibrium es el neumático de calle por excelencia para la V Región: bajo ruido en asfalto y alta durabilidad en las subidas de los cerros. Para salidas adventure hacia Quintero, Puchuncaví y los caminos del interior hacia Quillota, el K761 Dual Sport equilibra carretera y ripio compacto. Los riders más exigentes que recorren los accesos cordilleranos hacia el Cajón del Aconcagua prefieren el K784 Big Block para terreno mixto. Envío 2-3 días hábiles a toda la provincia.",
     "terrain": "Costa · Carretera · Trail",
+    "recommendedRefs": ["K787", "K761", "K784"],
+    "relevantCategories": ["calle-carretera", "dual-sport", "trail-adventure"],
     "vol": 990,
     "priority": 2
   },
@@ -60,7 +72,10 @@
     "description": "Distribuidor oficial Kenda en Temuco y La Araucanía. Enduro y trail para los bosques del sur. Envío gratis en 3-4 días hábiles.",
     "deliveryDays": "3-4 días hábiles",
     "localContent": "La Araucanía es una de las regiones más exigentes para las motos. Sus caminos de tierra y barro, los senderos del Parque Nacional Conguillío y las rutas de los Lagos hacen del Kenda K779 y K778 las opciones preferidas de los moteros de Temuco.",
+    "seoText": "La Araucanía tiene las condiciones más exigentes del país: lluvia permanente, barro, tierra compacta y raíces. Los senderos del Conguillío, los caminos hacia los lagos Villarrica y Caburgua y las pistas del Malleco hacen del K779 (delantera) y K778 (trasera) Knarly el sistema de referencia para enduro en el sur. Ambos son construcción TT optimizada para terreno blando a intermedio. El K784 Big Block complementa para los riders que mezclan ruta y enduro buscando el paso Las Raíces o la Ruta Internacional. La Araucanía es la región de mayor crecimiento de motos enduro en Chile. Envío 3-4 días hábiles.",
     "terrain": "Enduro · Bosques · Araucanía",
+    "recommendedRefs": ["K779", "K778", "K784"],
+    "relevantCategories": ["enduro", "trail-adventure", "cross-motocross"],
     "vol": 480,
     "priority": 2
   },
@@ -73,7 +88,10 @@
     "description": "Distribuidor oficial Kenda en Antofagasta. Neumáticos para moto en desierto y carretera. Envío gratis en 2-3 días hábiles desde ZOFRI Iquique.",
     "deliveryDays": "2-3 días hábiles",
     "localContent": "Antofagasta es la puerta de entrada al Desierto de Atacama. Las rutas del altiplano, los caminos de tierra hacia el interior y la Ruta 1 costera exigen neumáticos resistentes como el Kenda K784 Big Block y el K782 Sand Mad.",
+    "seoText": "El Norte Grande tiene sus propias reglas: desierto de Atacama, salares del altiplano y rutas de tierra polvorosa. Antofagasta es la puerta de entrada para expediciones al Loa, San Pedro de Atacama y los caminos de la precordillera. El K784 Big Block domina el mercado trail-adventure de la región por su construcción bias-belt y sus bloques de gran taco en ripio suelto y piedra volcánica. Para los fanáticos del rally y los senderos de arena del desierto, el K782 Sand Mad es la opción especializada. La proximidad a ZOFRI Iquique permite despachos express en 2-3 días hábiles a toda la Región de Antofagasta.",
     "terrain": "Desierto · Atacama · Norte",
+    "recommendedRefs": ["K784", "K782", "K761"],
+    "relevantCategories": ["trail-adventure", "cross-motocross", "dual-sport"],
     "vol": 0,
     "priority": 2
   },
@@ -86,7 +104,10 @@
     "description": "Distribuidor oficial Kenda en La Serena y Coquimbo. Amplio catálogo de neumáticos para moto. Envío gratis en 3-4 días hábiles.",
     "deliveryDays": "3-4 días hábiles",
     "localContent": "La Región de Coquimbo, con sus valles, playas y el acceso al Valle del Elqui, es ideal para motos adventure y dual sport. Los neumáticos Kenda K761 y K784 son los más solicitados en La Serena.",
+    "seoText": "La Región de Coquimbo tiene una oferta de rutas excepcional: el Valle del Elqui con sus caminos de ripio entre viñedos y observatorios, las rutas costeras hacia Tongoy y Coquimbo, y los caminos de tierra hacia el altiplano de Combarbalá. Los riders de La Serena prefieren neumáticos versátiles: el K761 Dual Sport para mezclar ruta y ripio compacto en los valles transversales, y el K784 Big Block para las excursiones más exigentes hacia Paihuano y el interior. La región tiene un crecimiento sostenido de motos adventure impulsado por el turismo. Envío 3-4 días hábiles desde ZOFRI Iquique.",
     "terrain": "Mixto · Valle · Carretera",
+    "recommendedRefs": ["K761", "K784", "K787"],
+    "relevantCategories": ["dual-sport", "trail-adventure", "calle-carretera"],
     "vol": 0,
     "priority": 3
   }

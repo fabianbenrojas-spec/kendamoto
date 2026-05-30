@@ -133,7 +133,10 @@ export interface City {
   description: string
   deliveryDays: string
   localContent?: string
+  seoText?: string
   terrain?: string
+  recommendedRefs?: string[]
+  relevantCategories?: string[]
   vol?: number
   priority?: number
 }
