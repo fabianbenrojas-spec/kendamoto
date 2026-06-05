@@ -1,15 +1,27 @@
 'use client'
 
 import Link from 'next/link'
-import { formatPriceCLP } from '@/lib/products'
+import Image from 'next/image'
+import { useState } from 'react'
+import { formatPriceCLP, sizeToSlug, getDefaultSize } from '@/lib/products'
+import { IMAGE_BLUR_MAP } from '@/data/image-blur-map'
 import type { Product } from '@/lib/types'
 
 export function ProductCard({ product }: { product: Product }) {
-  const defaultSize = product.sizes?.find(s => s.stock === 'in_stock') ?? product.sizes?.[0]
+  const defaultSize = getDefaultSize(product)
+  const defaultSizeSlug = defaultSize ? sizeToSlug(defaultSize.medida) : null
+  const href = defaultSizeSlug
+    ? `/neumaticos-kenda-moto/${product.category}/${product.slug}/${defaultSizeSlug}/`
+    : `/neumaticos-kenda-moto/${product.category}/${product.slug}/`
+
+  const slug = product.ref.toLowerCase()
+  const src = `/images/products/${slug}/${slug}-principal.webp`
+  const blur = IMAGE_BLUR_MAP[src]
+  const [hasError, setHasError] = useState(false)
 
   return (
     <Link
-      href={`/neumaticos-kenda-moto/${product.category}/${product.slug}/`}
+      href={href}
       style={{ textDecoration: 'none', display: 'block', height: '100%' }}
     >
       <div
@@ -26,19 +38,39 @@ export function ProductCard({ product }: { product: Product }) {
         <div
           style={{
             background: 'var(--ink)',
-            height: '160px',
+            position: 'relative',
+            aspectRatio: '4/3',
             marginBottom: '20px',
+            overflow: 'hidden',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            fontFamily: 'var(--font-display)',
-            fontWeight: 800,
-            fontSize: '28px',
-            color: 'var(--kenda)',
-            letterSpacing: '0.06em',
           }}
         >
-          {product.ref}
+          {hasError ? (
+            <span
+              style={{
+                fontFamily: 'var(--font-display)',
+                fontWeight: 800,
+                fontSize: '28px',
+                color: 'var(--kenda)',
+                letterSpacing: '0.06em',
+              }}
+            >
+              {product.ref}
+            </span>
+          ) : (
+            <Image
+              src={src}
+              alt={`Kenda ${product.ref} neumático moto Chile`}
+              fill
+              style={{ objectFit: 'contain', padding: '12px' }}
+              sizes="(max-width: 640px) 50vw, (max-width: 1200px) 33vw, 280px"
+              placeholder={blur ? 'blur' : 'empty'}
+              blurDataURL={blur}
+              onError={() => setHasError(true)}
+            />
+          )}
         </div>
 
         <div style={{ flex: 1 }}>

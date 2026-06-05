@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
 import { IMAGE_BLUR_MAP } from '@/data/image-blur-map'
+import { formatPriceCLP } from '@/lib/products'
 
 interface ProductCardProps {
   slug: string          // product.ref.toLowerCase() — e.g. 'k784'
@@ -13,7 +14,6 @@ interface ProductCardProps {
   medidaLabel: string   // display, e.g. '90/90B21'
   posicion: string      // e.g. 'delantera'
   priceFrom: number     // lowest priceCLP across sizes
-  formatPrice: (n: number) => string
 }
 
 export function ProductCard({
@@ -24,7 +24,6 @@ export function ProductCard({
   medidaLabel,
   posicion,
   priceFrom,
-  formatPrice,
 }: ProductCardProps) {
   const [hasError, setHasError] = useState(false)
 
@@ -116,7 +115,7 @@ export function ProductCard({
             marginTop: '8px',
           }}
         >
-          Desde {formatPrice(priceFrom)}
+          Desde {formatPriceCLP(priceFrom)}
         </div>
       </div>
     </Link>

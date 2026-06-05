@@ -9,6 +9,7 @@ import type { CategoryData } from '@/lib/types'
 import { CategorySeoBlock } from '@/components/sections/CategorySeoBlock'
 import { CATEGORY_SEO_CONTENT } from '@/data/category-seo-content'
 import { CategoryHeroImage } from '@/components/ui/CategoryHeroImage'
+import { ProductCard } from '@/components/ui/ProductCard'
 
 type TerrainCard = { terrain: string; icon: string; percentage: number; description: string; model: string }
 type CompatMoto = { make: string; model: string; front: string; rear: string; cc: string }
@@ -242,148 +243,19 @@ export default async function CategoryPage({ params }: Props) {
             >
               {products.map(product => {
                 const defaultSize = product.sizes?.length > 0 ? getDefaultSize(product) : null
-                const defaultSizeSlug = defaultSize ? sizeToSlug(defaultSize.medida) : null
-
+                if (!defaultSize) return null
+                const priceFrom = Math.min(...product.sizes.map(s => s.priceCLP))
                 return (
-                  <Link
+                  <ProductCard
                     key={product.slug}
-                    href={
-                      defaultSizeSlug
-                        ? `/neumaticos-kenda-moto/${categoria}/${product.slug}/${defaultSizeSlug}/`
-                        : `/neumaticos-kenda-moto/${categoria}/${product.slug}/`
-                    }
-                    style={{ textDecoration: 'none' }}
-                  >
-                    <div
-                      style={{
-                        background: 'white',
-                        border: '1px solid var(--line)',
-                        padding: '24px',
-                        height: '100%',
-                        display: 'flex',
-                        flexDirection: 'column',
-                      }}
-                    >
-                      {/* Placeholder */}
-                      <div
-                        style={{
-                          background: 'var(--ink)',
-                          height: '160px',
-                          marginBottom: '20px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          fontFamily: 'var(--font-display)',
-                          fontWeight: 800,
-                          fontSize: '32px',
-                          color: 'var(--kenda)',
-                          letterSpacing: '0.04em',
-                        }}
-                      >
-                        {product.ref}
-                      </div>
-
-                      <div style={{ flex: 1 }}>
-                        <div
-                          style={{
-                            fontFamily: 'var(--font-display)',
-                            fontWeight: 700,
-                            fontSize: '12px',
-                            letterSpacing: '0.1em',
-                            textTransform: 'uppercase',
-                            color: 'var(--kenda)',
-                            marginBottom: '4px',
-                          }}
-                        >
-                          Kenda {product.ref}
-                        </div>
-                        <div
-                          style={{
-                            fontFamily: 'var(--font-display)',
-                            fontWeight: 800,
-                            fontSize: '20px',
-                            textTransform: 'uppercase',
-                            letterSpacing: '-0.01em',
-                            color: 'var(--text)',
-                            marginBottom: '4px',
-                          }}
-                        >
-                          {product.name}
-                        </div>
-                        <div
-                          style={{
-                            fontFamily: 'var(--font-body)',
-                            fontSize: '13px',
-                            color: 'var(--muted)',
-                            marginBottom: '12px',
-                          }}
-                        >
-                          {product.tagline}
-                        </div>
-                        {product.sizes && (
-                          <div
-                            style={{
-                              fontFamily: 'var(--font-body)',
-                              fontSize: '12px',
-                              color: 'var(--dim)',
-                            }}
-                          >
-                            {product.sizes.length} medida{product.sizes.length !== 1 ? 's' : ''}{' '}
-                            disponibles
-                          </div>
-                        )}
-                      </div>
-
-                      <div
-                        style={{
-                          marginTop: '16px',
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          alignItems: 'flex-end',
-                        }}
-                      >
-                        <div>
-                          {defaultSize && (
-                            <>
-                              <div
-                                style={{
-                                  fontFamily: 'var(--font-body)',
-                                  fontSize: '11px',
-                                  color: 'var(--muted)',
-                                  textTransform: 'uppercase',
-                                  letterSpacing: '0.06em',
-                                }}
-                              >
-                                Desde
-                              </div>
-                              <div
-                                style={{
-                                  fontFamily: 'var(--font-display)',
-                                  fontWeight: 800,
-                                  fontSize: '22px',
-                                  color: 'var(--text)',
-                                }}
-                              >
-                                {formatPriceCLP(defaultSize.priceCLP)}
-                              </div>
-                            </>
-                          )}
-                        </div>
-                        <span
-                          style={{
-                            fontFamily: 'var(--font-display)',
-                            fontWeight: 700,
-                            fontSize: '12px',
-                            letterSpacing: '0.08em',
-                            textTransform: 'uppercase',
-                            color: 'var(--kenda)',
-                          }}
-                        >
-                          Ver →
-                        </span>
-                      </div>
-                    </div>
-                  </Link>
+                    slug={product.ref.toLowerCase()}
+                    modelName={product.name}
+                    categoria={categoria}
+                    medidaSlug={sizeToSlug(defaultSize.medida)}
+                    medidaLabel={defaultSize.medida}
+                    posicion={defaultSize.position}
+                    priceFrom={priceFrom}
+                  />
                 )
               })}
             </div>
